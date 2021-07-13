@@ -7,7 +7,7 @@ title: Index
     <div class="navbar">
         <div class="navbar-links">
             <a class="navbar-logo" href="#">
-                <img src="/assets/ellipse.png"/>
+                <img src="/assets/images/ellipse.png"/>
             </a>
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#servicios">Servicios</a>
@@ -46,7 +46,7 @@ title: Index
         <div class="banner-line-horizontal-three">
         </div>
         <div class="banner-image">
-          <img src="/assets/chan-shoulder.jpg" style="width: 125%;"/>
+          <img src="/assets/images/chan-shoulder.jpg" style="width: 125%;"/>
         </div>
         <div class="banner-arrow">
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"

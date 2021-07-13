@@ -255,7 +255,7 @@ body {
 .servicios-line-horizontal {
   position: absolute;
   border-top: 1px solid black;
-  width: 89.7em;
+  width: 95%;
   top: 12%;
 }
 
