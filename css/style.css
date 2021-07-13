@@ -40,10 +40,15 @@ body {
 .navbar-lang {
   margin: 3% 7% 1% 1.5%;
 }
+.navbar-lang a {
+  text-decoration: none;
+  color: inherit;
+}
 
-.navbar-lang:hover {
+.navbar-lang a:hover {
   color: #D79404;
   transition: .5s;
+  cursor: pointer;
 }
 
 /* Home banner */
