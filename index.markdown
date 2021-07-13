@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 title: Index
 ---
@@ -15,7 +12,7 @@ title: Index
             </a>
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#servicios">Servicios</a>
-            <a class="nav-link" href="#sobre-,i">Sobre mí</a>
+            <a class="nav-link" href="#sobremi">Sobre mí</a>
             <a class="nav-link" href="#trabajo">Trabajos</a>
             <a class="nav-link" href="#opiniones">Opiniones</a>
             <a class="nav-link" href="#blog">Blog</a>
@@ -88,7 +85,7 @@ title: Index
             </div>
         </div>
     </div>
-    <div id="sobre-mi">
+    <div id="sobremi">
         <div class="sobre-mi-photo">
             <div class="one"><img src="https://source.unsplash.com/random/300x500" alt=""></div>
             <div class="two"><img src="https://source.unsplash.com/random/80x80" alt=""></div>
