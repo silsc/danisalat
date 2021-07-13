@@ -14,7 +14,6 @@ title: Index
             <a class="nav-link" href="#sobremi">Sobre mí</a>
             <a class="nav-link" href="#trabajo">Trabajos</a>
             <a class="nav-link" href="#opiniones">Opiniones</a>
-            <a class="nav-link" href="#blog">Blog</a>
             <a class="nav-link" href="#contacto">Contacto</a>
         </div>
         <div class="navbar-lang tooltip">
