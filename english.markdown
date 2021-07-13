@@ -7,8 +7,7 @@ title: Index
     <div class="navbar">
         <div class="navbar-links">
             <a class="navbar-logo" href="#">
-                <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png"
-                    style="width: 40px;" />
+                <img src="/assets/ellipse.png"/>
             </a>
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#servicios">Services</a>
@@ -18,9 +17,10 @@ title: Index
             <a class="nav-link" href="#blog">Blog</a>
             <a class="nav-link" href="#contacto">Contact</a>
         </div>
-        <div class="navbar-lang">
+        <div class="navbar-lang tooltip">
           <a href="/index">
             <span class="iconify" data-inline="false" data-icon="fontisto:world-o" style="font-size: 32px;"></span>
+            <span class="tooltiptext">Español</span>
           </a>
         </div>
     </div>
@@ -37,7 +37,7 @@ title: Index
         <div class="banner-text">
             <h2 class="effect-shine">IMPACT</h2>
             <h2 class="effect-shine">DEFINITION</h2>
-            <h2 class="effect-shine">PROFUNDIDAD</h2>
+            <h2 class="effect-shine">DEPTH</h2>
         </div>
         <a class="banner-button" href="#contacto">Let's talk</a>
         <div class="banner-line-horizontal-one">
@@ -47,7 +47,7 @@ title: Index
         <div class="banner-line-horizontal-three">
         </div>
         <div class="banner-image">
-            <img src="" />
+          <img src="/assets/chan-shoulder.jpg" style="width: 125%;"/>
         </div>
         <div class="banner-arrow">
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
@@ -106,31 +106,7 @@ title: Index
     </div>
     <div id="opiniones">
         <h2>Reviews</h2>
-        <div class="carousel">
-            <ol class="carousel__viewport">
-                <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper">
-                        <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
-                        <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
-                    </div>
-                </li>
-                <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
-                </li>
-                <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
-                </li>
-                <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
-                </li>
-            </ol>
-        </div>
+          {% include carousel.html height="50" unit="%" duration="7" %}
     </div>
     <div id="blog"></div>
     <div id="contacto"></div>

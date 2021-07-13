@@ -7,8 +7,7 @@ title: Index
     <div class="navbar">
         <div class="navbar-links">
             <a class="navbar-logo" href="#">
-                <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png"
-                    style="width: 40px;" />
+                <img src="/assets/ellipse.png"/>
             </a>
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#servicios">Servicios</a>
@@ -18,9 +17,10 @@ title: Index
             <a class="nav-link" href="#blog">Blog</a>
             <a class="nav-link" href="#contacto">Contacto</a>
         </div>
-        <div class="navbar-lang">
+        <div class="navbar-lang tooltip">
           <a href="/english">
             <span class="iconify" data-inline="false" data-icon="fontisto:world-o" style="font-size: 32px;"></span>
+            <span class="tooltiptext">English</span>
           </a>
         </div>
     </div>
@@ -47,7 +47,7 @@ title: Index
         <div class="banner-line-horizontal-three">
         </div>
         <div class="banner-image">
-            <img src="" />
+          <img src="/assets/chan-shoulder.jpg" style="width: 125%;"/>
         </div>
         <div class="banner-arrow">
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"

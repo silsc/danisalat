@@ -41,6 +41,7 @@ body {
 .navbar-lang {
   margin: 3% 7% 1% 1.5%;
 }
+
 .navbar-lang a {
   text-decoration: none;
   color: inherit;
@@ -50,6 +51,29 @@ body {
   color: #D79404;
   transition: .5s;
   cursor: pointer;
+}
+
+/* Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 /* Home banner */
@@ -69,7 +93,7 @@ body {
   top: 0;
   left: 15%;
   color: #1D2638;
-  font-size: 3em;
+  font-size: 3.5em;
   padding: 0;
   transition: transform .5s;
 }
@@ -105,7 +129,7 @@ body {
   top: 30%;
   left: 8%;
   color: #1D2638;
-  font-size: 2em;
+  font-size: 2.7em;
 }
 
 .banner-text h2 {
@@ -132,8 +156,8 @@ body {
 
 .banner-button {
   position: absolute;
-  top: 65%;
-  left: 25%;
+  top: 68%;
+  left: 30%;
   padding: 2% 8%;
   background-color: white;
   text-decoration: none;
@@ -155,6 +179,12 @@ body {
 .year p {
   writing-mode: tb-rl;
   font-weight: 400;
+}
+
+.banner-image {
+  position: absolute;
+  top: 40%;
+  left: 60%;
 }
 
 .banner-arrow {
@@ -201,7 +231,7 @@ body {
 /* Servicios */
 #servicios {
   background: white;
-  min-height: 110vh;
+  min-height: 120vh;
   margin: none;
   position: relative;
 }
