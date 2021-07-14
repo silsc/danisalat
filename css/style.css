@@ -243,9 +243,8 @@ body {
 /* Servicios */
 #servicios {
   background: white;
-  min-height: 120vh;
-  margin: none;
   position: relative;
+  padding-bottom: 10%;
 }
 
 .down-icon {
@@ -254,12 +253,11 @@ body {
   right: 5%;
   display: flex;
   flex-direction: column;
-
 }
 
 .servicios-title h2 {
   color: #D79404;
-  font-size: 4em;
+  font-size: 4.5vw;
   padding: 10% 0 0 15%;
   margin-bottom: 7%;
 }
@@ -283,12 +281,13 @@ body {
 
 .servicios-produccion h4 {
   color: #31405D;
-  font-size: 1.5em;
+  font-size: 2vw;
   text-align: center;
 }
 
 .servicios-produccion p {
   font-weight: 400;
+  font-size:  1.15vw;
   text-align: justify;
   line-height: 32px;
 }
@@ -296,6 +295,8 @@ body {
 .servicios-produccion .iconify {
   position: relative;
   left: calc(50% - 0.5em);
+  font-size: 7vw;
+  color: #d79404;
 }
 
 .servicios-mezcla {
@@ -304,12 +305,13 @@ body {
 
 .servicios-mezcla h4 {
   color: #31405D;
-  font-size: 1.5em;
+  font-size: 2vw;
   text-align: center;
 }
 
 .servicios-mezcla p {
   font-weight: 400;
+  font-size:  1.15vw;
   text-align: justify;
   line-height: 32px;
 }
@@ -317,6 +319,8 @@ body {
 .servicios-mezcla .iconify {
   position: relative;
   left: calc(50% - 0.5em);
+  font-size: 7vw;
+  color: #d79404;
 }
 
 /* Sobre mi */

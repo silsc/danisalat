@@ -50,33 +50,31 @@ title: Index
         </div>
         <div class="banner-arrow">
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 36px;"></span>
+                style="font-size: 3vw;"></span>
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 36px;"></span>
+                style="font-size: 3vw;"></span>
         </div>
     </div>
     <div id="servicios">
         <div class="servicios-line-horizontal"></div>
         <div class="down-icon">
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 36px;"></span>
+                style="font-size: 3vw;"></span>
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 36px;"></span>
+                style="font-size: 3vw;"></span>
         </div>
         <div class="servicios-title">
             <h2>Servicios</h2>
         </div>
         <div class="servicios-container">
             <div class="servicios-produccion">
-                <span class="iconify" data-inline="false" data-icon="fluent:music-note-2-play-20-filled"
-                    style="color: #d79404; font-size: 100px;"></span>
+                <span class="iconify" data-inline="false" data-icon="fluent:music-note-2-play-20-filled"></span>
                 <h4>Producción</h4>
                 <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
                     double click me to add your own content and make changes to</p>
             </div>
             <div class="servicios-mezcla">
-                <span class="iconify" data-inline="false" data-icon="entypo:sound-mix"
-                    style="color: #d79404; font-size: 100px;"></span>
+                <span class="iconify" data-inline="false" data-icon="entypo:sound-mix"></span>
                 <h4>Mezcla</h4>
                 <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
                     double
