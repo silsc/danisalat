@@ -18,7 +18,7 @@ title: Index
         </div>
         <div class="navbar-lang tooltip">
           <a href="/english">
-            <span class="iconify" data-inline="false" data-icon="fontisto:world-o" style="font-size: 32px;"></span>
+            <span class="iconify" data-inline="false" data-icon="fontisto:world-o"></span>
             <span class="tooltiptext">English</span>
           </a>
         </div>
