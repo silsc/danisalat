@@ -14,17 +14,17 @@ body {
 
 /* Navbar */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0%;
-    -webkit-animation: fadein 2s;
-  }
+  display: flex;
+  justify-content: space-between;
+  -webkit-animation: fadein 2s;
+}
 
 .navbar-links {
-    display: flex;
-    min-width: 70%;
-    margin: 2% 0 0 4%;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 85%;
+  margin: 2% 0 0 4%;
+}
 
 .nav-link {
   text-decoration: none;
