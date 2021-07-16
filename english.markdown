@@ -100,7 +100,9 @@
     </div>
     <div id="trabajo">
         <h2>Work</h2>
-        {% include embed-audio.html src="/assets/audio/ContrapensamentWEB.wav" %}
+        {% include embed-audio.html src="/assets/audio/Contrapensament-Fornax.wav" %}
+        {% include embed-audio.html src="/assets/audio/LaRealidad-TheFox.wav" %}
+        {% include embed-audio.html src="/assets/audio/Follow-Melting.wav" %}
     </div>
     <div id="opiniones">
       <h2>Reviews</h2>
