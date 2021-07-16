@@ -1,0 +1,25 @@
+<div class="form">
+  <form id="form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xeqvlzvp" method="post">
+    <fieldset id="form-inputs">
+      <div class="rowone-form">
+          <div class="name-form">
+            <label for="text">Name
+              <input type="text" name="name" id="full-name" placeholder="Your name" required="">
+            </label>
+          </div>
+          <div class="email-form">
+            <label for="email">Mail
+              <input type="email" name="_replyto" id="email-address" placeholder="Your email" required="">
+            </label>
+          </div>
+      </div>
+      <div class="rowtwo-form">
+        <label for="message">Message
+          <textarea name="message" placeholder="Write your message here..." rows="2"></textarea>
+        </label>
+      </div>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </fieldset>
+    <input type="submit" value="Submit">
+  </form>
+</div>

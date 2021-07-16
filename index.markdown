@@ -104,7 +104,7 @@ title: Index
     <div id="opiniones">
         <h2>Opiniones</h2>
         <div class="carousel">
-            <ol class="carousel__viewport">
+            <!-- <ol class="carousel__viewport">
                 <li id="carousel__slide1" tabindex="0" class="carousel__slide">
                     <div class="carousel__snapper">
                         <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
@@ -126,9 +126,24 @@ title: Index
                     <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
                     <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
                 </li>
-            </ol>
+            </ol> -->
         </div>
     </div>
-    <div id="blog"></div>
-    <div id="contacto"></div>
+    <div id="contacto">
+      <h2>Contacto</h2>
+      <div class="contacto-horizontal-line"></div>
+      <div class="contacto-vertical-bottom-line"></div>
+      {% include form-esp.html %}
+    </div>
+    <div id="footer">
+      <div class="footer-links">
+        <a href="https://www.youtube.com/channel/UCS13MmmbbiE4PmsZVURWVrQ"><span class="iconify" data-inline="false" data-icon="ant-design:youtube-outlined"></span></a>
+        <a href="https://www.instagram.com/danisalat/"><span class="iconify" data-inline="false" data-icon="ant-design:instagram-outlined"></span></a>
+      </div>
+      <div class="footer-copyright">
+        © Dani Salat
+        <br>
+        Barcelona
+      </div>
+    </div>
 </body>

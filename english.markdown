@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Index
+  layout: default
+  title: Index
 ---
 <body>
     <div class="banner-line-vertical"></div>
@@ -18,7 +18,7 @@ title: Index
         </div>
         <div class="navbar-lang tooltip">
           <a href="/index">
-            <span class="iconify" data-inline="false" data-icon="fontisto:world-o" style="font-size: 32px;"></span>
+            <span class="iconify" data-inline="false" data-icon="fontisto:world-o"></span>
             <span class="tooltiptext">Español</span>
           </a>
         </div>
@@ -50,33 +50,31 @@ title: Index
         </div>
         <div class="banner-arrow">
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 36px;"></span>
+                style="font-size: 3vw;"></span>
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 36px;"></span>
+                style="font-size: 3vw;"></span>
         </div>
     </div>
     <div id="servicios">
         <div class="servicios-line-horizontal"></div>
         <div class="down-icon">
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 36px;"></span>
+                style="font-size: 3vw;"></span>
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 36px;"></span>
+                style="font-size: 3vw;"></span>
         </div>
         <div class="servicios-title">
             <h2>Services</h2>
         </div>
         <div class="servicios-container">
             <div class="servicios-produccion">
-                <span class="iconify" data-inline="false" data-icon="fluent:music-note-2-play-20-filled"
-                    style="color: #d79404; font-size: 100px;"></span>
+                <span class="iconify" data-inline="false" data-icon="fluent:music-note-2-play-20-filled"></span>
                 <h4>Production</h4>
                 <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
                     double click me to add your own content and make changes to</p>
             </div>
             <div class="servicios-mezcla">
-                <span class="iconify" data-inline="false" data-icon="entypo:sound-mix"
-                    style="color: #d79404; font-size: 100px;"></span>
+                <span class="iconify" data-inline="false" data-icon="entypo:sound-mix"></span>
                 <h4>Mix</h4>
                 <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
                     double
@@ -102,10 +100,26 @@ title: Index
     </div>
     <div id="trabajo">
         <h2>Work</h2>
+        {% include embed-audio.html src="/assets/audio/ContrapensamentWEB.wav" %}
     </div>
     <div id="opiniones">
       <h2>Reviews</h2>
     </div>
-    <div id="blog"></div>
-    <div id="contacto"></div>
+    <div id="contacto">
+       <h2>Contact</h2>
+      <div class="contacto-horizontal-line"></div>
+      <div class="contacto-vertical-bottom-line"></div>
+      {% include form.html %}
+    </div>
+    <div id="footer">
+      <div class="footer-links">
+        <a href="https://www.youtube.com/channel/UCS13MmmbbiE4PmsZVURWVrQ"><span class="iconify" data-inline="false" data-icon="ant-design:youtube-outlined"></span></a>
+        <a href="https://www.instagram.com/danisalat/"><span class="iconify" data-inline="false" data-icon="ant-design:instagram-outlined"></span></a>
+      </div>
+      <div class="footer-copyright">
+        © Dani Salat
+        <br>
+        Barcelona
+      </div>
+    </div>
 </body>
