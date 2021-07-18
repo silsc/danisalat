@@ -100,28 +100,69 @@
     </div>
     <div id="trabajo">
         <h2>Work</h2>
-        {% include embed-audio.html src="/assets/audio/Contrapensament-Fornax.wav" %}
-        {% include embed-audio.html src="/assets/audio/LaRealidad-TheFox.wav" %}
-        {% include embed-audio.html src="/assets/audio/Follow-Melting.wav" %}
+        <div class="cards-container">
+          <div class="card">
+            <div class="song-container">
+              <img src="/assets/images/LaRealidad.png" alt="">
+              <div class="song-info">
+                <p>La Realidad - The Fox 196</p>
+                <p>Producción / Mezcla / Master</p>
+              </div>
+            </div>
+            {% include embed-audio.html src="/assets/audio/LaRealidad-TheFox.wav" %}
+          </div>
+          <div class="card">
+            <div class="song-container">
+              <img src="../assets/images/Contrapensament.png" alt="">
+              <div class="song-info">
+                <p>Contrapensament - Fornax</p>
+                <p>Producción / Mezcla / Master</p>
+              </div>
+            </div>
+            {% include embed-audio.html src="/assets/audio/Contrapensament-Fornax.wav" %}
+          </div>
+          <div class="card">
+            <div class="song-container">
+              <img src="/assets/images/Follow.png" alt="">
+              <div class="song-info">
+                <p>Follow - Melting</p>
+                <p>Producción / Mezcla / Master</p>
+              </div>
+            </div>
+            {% include embed-audio.html src="/assets/audio/Follow-Melting.wav" %}
+          </div>
+        </div>
     </div>
     <div id="opiniones">
       <h2>Reviews</h2>
     </div>
     <div id="contacto">
-       <h2>Contact</h2>
-      <div class="contacto-horizontal-line"></div>
-      <div class="contacto-vertical-bottom-line"></div>
-      {% include form.html %}
-    </div>
-    <div id="footer">
-      <div class="footer-links">
-        <a href="https://www.youtube.com/channel/UCS13MmmbbiE4PmsZVURWVrQ"><span class="iconify" data-inline="false" data-icon="ant-design:youtube-outlined"></span></a>
-        <a href="https://www.instagram.com/danisalat/"><span class="iconify" data-inline="false" data-icon="ant-design:instagram-outlined"></span></a>
+      <h2>Contact</h2>
+      <div class="sub-contacto">
+        <p>Want to work together? Tell me more about your project</p>
       </div>
-      <div class="footer-copyright">
-        © Dani Salat
-        <br>
-        Barcelona
+<!--  <div class="contacto-horizontal-line"></div>-->
+      <div class="contacto-vertical-bottom-line"></div>
+      <div class="wrapper">
+        <div class="contact-info">
+          <h3>Contact information</h3>
+          <p>Fill up the form and I'll get back to you within 24 hours.</p>
+          <div class="contact-email">
+            <span class="iconify" data-inline="false" data-icon="clarity:email-line"></span>
+            <p>email: danielsalat@gmail.com</p>
+          </div>
+          <div class="contact-location">
+            <span class="iconify" data-inline="false" data-icon="fluent:location-28-regular"></span>
+            <p>Sabadell, Barcelona</p>
+          </div>
+          <div class="contact-sns">
+            <a href="https://www.youtube.com/channel/UCS13MmmbbiE4PmsZVURWVrQ"><span class="iconify" data-inline="false" data-icon="ant-design:youtube-outlined"></span></a>
+            <a href="https://www.instagram.com/danisalat/"><span class="iconify" data-inline="false" data-icon="ant-design:instagram-outlined"></span></a>
+          </div>
+        </div>
+        <div class="contact-form">
+        {% include form.html %}
+        </div>
       </div>
     </div>
 </body>

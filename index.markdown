@@ -131,19 +131,31 @@ title: Index
     </div>
     <div id="contacto">
       <h2>Contacto</h2>
-      <div class="contacto-horizontal-line"></div>
-      <div class="contacto-vertical-bottom-line"></div>
-      {% include form-esp.html %}
-    </div>
-    <div id="footer">
-      <div class="footer-links">
-        <a href="https://www.youtube.com/channel/UCS13MmmbbiE4PmsZVURWVrQ"><span class="iconify" data-inline="false" data-icon="ant-design:youtube-outlined"></span></a>
-        <a href="https://www.instagram.com/danisalat/"><span class="iconify" data-inline="false" data-icon="ant-design:instagram-outlined"></span></a>
+      <div class="sub-contacto">
+        <p>¿Quieres trabajar juntos? Cuéntame más sobre tu proyecto</p>
       </div>
-      <div class="footer-copyright">
-        © Dani Salat
-        <br>
-        Barcelona
+      <!-- <div class="contacto-horizontal-line"></div> -->
+      <div class="contacto-vertical-bottom-line"></div>
+      <div class="wrapper">
+        <div class="contact-info">
+          <h3>Información de contacto</h3>
+          <p>Rellena el formulario y me pondré en contacto contigo en menos de 24 horas.</p>
+          <div class="contact-email">
+            <span class="iconify" data-inline="false" data-icon="clarity:email-line"></span>
+            <p>email: danielsalat@gmail.com</p>
+          </div>
+          <div class="contact-location">
+            <span class="iconify" data-inline="false" data-icon="fluent:location-28-regular"></span>
+            <p>Sabadell, Barcelona</p>
+          </div>
+          <div class="contact-sns">
+            <a href="https://www.youtube.com/channel/UCS13MmmbbiE4PmsZVURWVrQ"><span class="iconify" data-inline="false" data-icon="ant-design:youtube-outlined"></span></a>
+            <a href="https://www.instagram.com/danisalat/"><span class="iconify" data-inline="false" data-icon="ant-design:instagram-outlined"></span></a>
+          </div>
+        </div>
+        <div class="contact-form">
+        {% include form-esp.html %}
+        </div>
       </div>
     </div>
 </body>
