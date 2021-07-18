@@ -100,6 +100,38 @@ title: Index
     </div>
     <div id="trabajo">
         <h2>Trabajos</h2>
+        <div class="cards-container">
+          <div class="card">
+              <div class="song-container">
+                <img src="/assets/images/LaRealidad.png" alt="">
+                <div class="song-info">
+                  <p>La Realidad - The Fox 196</p>
+                  <p>Producción / Mezcla / Master</p>
+                </div>
+              </div>
+              {% include embed-audio.html src="/assets/audio/LaRealidad-TheFox.wav" %}
+          </div>
+          <div class="card">
+              <div class="song-container">
+                <img src="../assets/images/Contrapensament.png" alt="">
+                <div class="song-info">
+                  <p>Contrapensament - Fornax</p>
+                  <p>Producción / Mezcla / Master</p>
+                </div>
+              </div>
+              {% include embed-audio.html src="/assets/audio/Contrapensament-Fornax.wav" %}
+          </div>
+          <div class="card">
+              <div class="song-container">
+                <img src="/assets/images/Follow.png" alt="">
+                <div class="song-info">
+                  <p>Follow - Melting</p>
+                  <p>Producción / Mezcla / Master</p>
+                </div>
+              </div>
+              {% include embed-audio.html src="/assets/audio/Follow-Melting.wav" %}
+          </div>
+        </div>
     </div>
     <div id="opiniones">
         <h2>Opiniones</h2>

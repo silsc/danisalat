@@ -407,8 +407,8 @@ body {
 #trabajo {
   margin: 10% 0%;
   color: #D79404;
-  min-height: 45vw;
 }
+
 #trabajo h2 {
   text-align: center;
   font-size: 4vw;
@@ -450,11 +450,13 @@ audio {
 }
 
 /* Opiniones */
+
 #opiniones {
   margin-top: 10%;
   color: #D79404;
   min-height: 45vw;
 }
+
 #opiniones h2 {
   text-align: center;
   font-size: 4vw;
@@ -678,7 +680,7 @@ ol, li {
 
 .sub-contacto p {
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin-bottom: 5%;
   font-weight: 400;
   color: #9a9a9a;
@@ -714,13 +716,13 @@ ol, li {
 
 .contact-info h3 {
   color: white;
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 
 .contact-info p {
   color: #e5e5e5;
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 1.3vw;
   margin: 0;
 }
 
@@ -752,7 +754,7 @@ ol, li {
   color: white;
   margin-right: 3%;
   padding: 3% 3% 2% 3%;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 .contact-sns a:hover {
@@ -788,7 +790,7 @@ button, textarea {
                 "Roboto", "Oxygen", "Ubuntu", "Cantarell",
                 "Fira Sans", "Droid Sans", "Helvetica Neue",
                 Arial, sans-serif;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 input[type="text"], input[type="email"] {
@@ -801,14 +803,11 @@ input[type="text"]:focus, input[type="email"]:focus {
   border-bottom: 2px solid #D79404;
 }
 
-label:focus-within {
- color: #D79404;
-}
-
 input[type="submit"] {
   padding: 1.5vw;
   border:  none;
-  margin-left: 40vw;
+  margin-left: 36vw;
+  font-size: 1.1vw;
 }
 
 input[type="submit"]:hover {
@@ -834,8 +833,12 @@ textarea:focus {
 }
 
 .name-form label,  .email-form label, .rowtwo-form label{
-  /*color: #1D2638;*/
-  font-size: 1.15vw;
+  color: #1D2638;
+  font-size: 1.5vw;
+}
+
+.name-form label:focus-within, .email-form label:focus-within, .rowtwo-form label:focus-within{
+  color: #D79404;
 }
 
 .name-form input[type="text"] {

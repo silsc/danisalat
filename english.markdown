@@ -106,7 +106,7 @@
               <img src="/assets/images/LaRealidad.png" alt="">
               <div class="song-info">
                 <p>La Realidad - The Fox 196</p>
-                <p>Producción / Mezcla / Master</p>
+                <p>Production / Mix / Master</p>
               </div>
             </div>
             {% include embed-audio.html src="/assets/audio/LaRealidad-TheFox.wav" %}
@@ -116,7 +116,7 @@
               <img src="../assets/images/Contrapensament.png" alt="">
               <div class="song-info">
                 <p>Contrapensament - Fornax</p>
-                <p>Producción / Mezcla / Master</p>
+                <p>Production / Mix / Master</p>
               </div>
             </div>
             {% include embed-audio.html src="/assets/audio/Contrapensament-Fornax.wav" %}
@@ -126,7 +126,7 @@
               <img src="/assets/images/Follow.png" alt="">
               <div class="song-info">
                 <p>Follow - Melting</p>
-                <p>Producción / Mezcla / Master</p>
+                <p>Production / Mix / Master</p>
               </div>
             </div>
             {% include embed-audio.html src="/assets/audio/Follow-Melting.wav" %}
