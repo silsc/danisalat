@@ -84,9 +84,11 @@ title: Index
     </div>
     <div id="sobremi">
         <div class="sobre-mi-photo">
-            <div class="one"><img src="https://source.unsplash.com/random/300x500" alt=""></div>
-            <div class="two"><img src="https://source.unsplash.com/random/80x80" alt=""></div>
-            <div class="three"><img src="https://source.unsplash.com/random/80x80" alt=""></div>
+            <div class="one"><img src="/assets/images/chan-seria.jpg" alt=""></div>
+            <div class="two"><img src="/assets/images/chan-rack.jpg" alt=""></div>
+            <div class="three"><img src="/assets/images/chan-headstocks.jpg" alt=""></div>
+            <div class="four"><img src="/assets/images/ds-cabs.jpg" alt=""></div>
+            <div class="five"><img src="/assets/images/ds-drums.jpg" alt=""></div>
         </div>
         <div class="sobre-mi-text">
             <h2>Sobre mi</h2>
@@ -97,6 +99,7 @@ title: Index
                 little more about you.</p>
             <a class="sobre-mi-button" href="#contacto">Let's talk</a>
         </div>
+        <div class="sobremi-line-horizontal"></div>
     </div>
     <div id="trabajo">
         <h2>Trabajos</h2>
@@ -134,32 +137,7 @@ title: Index
         </div>
     </div>
     <div id="opiniones">
-        <h2>Opiniones</h2>
-        <div class="carousel">
-            <!-- <ol class="carousel__viewport">
-                <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper">
-                        <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
-                        <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
-                    </div>
-                </li>
-                <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
-                </li>
-                <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
-                </li>
-                <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
-                </li>
-            </ol> -->
-        </div>
+      <h2>Opiniones</h2>
     </div>
     <div id="contacto">
       <h2>Contacto</h2>

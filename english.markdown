@@ -84,9 +84,11 @@
     </div>
     <div id="sobremi">
         <div class="sobre-mi-photo">
-            <div class="one"><img src="https://source.unsplash.com/random/300x500" alt=""></div>
-            <div class="two"><img src="https://source.unsplash.com/random/80x80" alt=""></div>
-            <div class="three"><img src="https://source.unsplash.com/random/80x80" alt=""></div>
+            <div class="one"><img src="/assets/images/chan-seria.jpg" alt=""></div>
+            <div class="two"><img src="/assets/images/chan-rack.jpg" alt=""></div>
+            <div class="three"><img src="/assets/images/chan-headstocks.jpg" alt=""></div>
+            <div class="four"><img src="/assets/images/ds-cabs.jpg" alt=""></div>
+            <div class="five"><img src="/assets/images/ds-drums.jpg" alt=""></div>
         </div>
         <div class="sobre-mi-text">
             <h2>About me</h2>
@@ -97,6 +99,7 @@
                 little more about you.</p>
             <a class="sobre-mi-button" href="#contacto">Let's talk</a>
         </div>
+        <div class="sobremi-line-horizontal"></div>
     </div>
     <div id="trabajo">
         <h2>Work</h2>

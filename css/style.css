@@ -328,18 +328,21 @@ body {
   grid-template-columns: 0.8fr 1.2fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
-  margin-top: 5%;
+  margin: 5% 0;
+  position: relative;
 }
 
 .sobre-mi-photo {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 0.5fr;
-  gap: 0px 0px;
+  grid-template-rows: 2fr 0.5fr 0.5fr;
+  gap: 8% 4%;
   grid-template-areas:
     "one one"
-    "two three";
-  grid-area: 1 / 1 / 2 / 2;
+    "two three"
+    "four five";
+  grid-area: 1 / 1 / 2 / 2 / 3 / 3;
+  padding: 10% 5%;
 }
 
 .one {
@@ -348,11 +351,23 @@ body {
   align-self: center;
 }
 
+.one img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .two {
   grid-area: two;
   justify-self: center;
   align-self: center;
  }
+
+ .two img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 .three {
   grid-area: three;
@@ -360,9 +375,40 @@ body {
   align-self: center;
 }
 
+.three img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.four {
+  grid-area: four;
+  justify-self: center;
+  align-self: center;
+}
+
+.four img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.five {
+  grid-area: five;
+  justify-self: center;
+  align-self: center;
+}
+
+.five img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .sobre-mi-text {
   background: white;
   position: relative;
+  height: 120%;
 }
 
 .sobre-mi-text h2 {
@@ -388,8 +434,8 @@ body {
 
 .sobre-mi-button {
   position: absolute;
-  bottom: 9%;
-  right: 25%;
+  bottom: 15%;
+  right: 15%;
   padding: 2% 8%;
   background-color: #2C3A54;
   text-decoration: none;
@@ -399,13 +445,20 @@ body {
   transition: transform .5s;
 }
 
+.sobremi-line-horizontal {
+  position: absolute;
+  border-top: 1px solid black;
+  width: 100vw;
+  top: 110%;
+}
+
 .sobre-mi-button:hover {
   transform: scale(1.2);
 }
 
 /* Trabajo */
 #trabajo {
-  margin: 10% 0%;
+  margin: 15% 0%;
   color: #D79404;
 }
 
