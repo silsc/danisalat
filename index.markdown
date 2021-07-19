@@ -138,6 +138,44 @@ title: Index
     </div>
     <div id="opiniones">
       <h2>Opiniones</h2>
+      <div class="carousel-container">
+      <input type="radio" name="position" checked />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <main id="carousel">
+        <div class="item">
+          <div class="item-info">
+          <h4>Nombre</h4>
+          <h5>otra info</h5>
+          </div>
+          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+        </div>
+        <div class="item">
+          <div class="item-info">
+          <h4>Nombre</h4>
+          <h5>otra info</h5>
+          </div>
+          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+        </div>
+        <div class="item">
+          <div class="item-info">
+          <h4>Nombre</h4>
+          <h5>otra info</h5>
+          </div>
+          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+        </div>
+        <div class="item">
+          <div class="item-info">
+          <h4>Nombre</h4>
+          <p>otra info</p>
+          </div>
+          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+        </div>
+        <div class="item"></div>
+        </main>
+      </div>
     </div>
     <div id="contacto">
       <h2>Contacto</h2>
