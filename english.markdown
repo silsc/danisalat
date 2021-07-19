@@ -146,10 +146,18 @@
       <input type="radio" name="position" />
       <main id="carousel">
         <div class="item">
-          <h2>Review 1</h2>
+          <div class="item-info">
+            <h4>Name</h4>
+            <h5>other info</h5>
+          </div>
+          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
         </div>
         <div class="item">
-          <h2>Review 2</h2>
+          <div class="item-info">
+            <h4>Name</h4>
+            <h5>other info</h5>
+          </div>
+          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
         </div>
         <div class="item">
           <div class="item-info">
@@ -159,8 +167,9 @@
           <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
         </div>
         <div class="item">
-          <h4>Name</h4>
-          <h5>other info</h5>
+          <div class="item-info">
+            <h4>Name</h4>
+            <h5>other info</h5>
           </div>
           <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
         </div>
@@ -173,7 +182,6 @@
       <div class="sub-contacto">
         <p>Want to work together? Tell me more about your project</p>
       </div>
-<!--  <div class="contacto-horizontal-line"></div>-->
       <div class="contacto-vertical-bottom-line"></div>
       <div class="wrapper">
         <div class="contact-info">

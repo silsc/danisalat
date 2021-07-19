@@ -458,7 +458,7 @@ body {
 
 /* Trabajo */
 #trabajo {
-  margin: 15% 0%;
+  margin: 15% 0% 10% 0;
   color: #D79404;
 }
 
@@ -505,9 +505,8 @@ audio {
 /* Opiniones */
 
 #opiniones {
-  margin-top: 10%;
+  margin-top: 5%;
   color: #D79404;
-  min-height: 45vw;
 }
 
 #opiniones h2 {
@@ -520,8 +519,8 @@ audio {
 .carousel-container {
   margin: 0;
   display: grid;
-  grid-template-rows: 500px 100px;
-  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+  grid-template-rows: 30vw 10vw;
+  grid-template-columns: 1fr 5vw 5vw 5vw 5wv 1fr;
   align-items: center;
   justify-items: center;
 }
