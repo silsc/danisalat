@@ -182,7 +182,6 @@
       <div class="sub-contacto">
         <p>Want to work together? Tell me more about your project</p>
       </div>
-      <div class="contacto-vertical-bottom-line"></div>
       <div class="wrapper">
         <div class="contact-info">
           <h3>Contact information</h3>

@@ -182,7 +182,6 @@ title: Index
       <div class="sub-contacto">
         <p>¿Quieres trabajar juntos? Cuéntame más sobre tu proyecto</p>
       </div>
-      <div class="contacto-vertical-bottom-line"></div>
       <div class="wrapper">
         <div class="contact-info">
           <h3>Información de contacto</h3>

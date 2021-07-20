@@ -103,16 +103,16 @@ body {
   color: #1D2638;
   font-size: 4vw;
   padding: 0;
-  transition: transform .5s;
+  /*transition: transform .5s;*/
 }
 
 .banner-title h1 {
   margin-top: 8%;
 }
 
-.banner-title:hover {
+/*.banner-title:hover {
   transform: scale(1.05);
-}
+}*/
 
 .banner-image {
   position: absolute;
@@ -138,6 +138,8 @@ body {
   left: 10%;
   color: #1D2638;
   font-size: 3vw;
+  margin: 1%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .banner-text h2 {
@@ -170,7 +172,7 @@ body {
   background-color: white;
   text-decoration: none;
   color: #AF7500;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transition: transform .5s;
   z-index: 100;
@@ -656,22 +658,6 @@ input:nth-of-type(5):checked ~ main#carousel {
   color: #9a9a9a;
 }
 
-.contacto-horizontal-line {
-  position: absolute;
-  border-top: 1px solid black;
-  width: 100vw;
-  top: 30%;
-}
-
-.contacto-vertical-bottom-line {
-  position: absolute;
-  border-left: 1px solid black;
-  height: 20vh;
-  bottom: 0;
-  right: 10%;
-  z-index: 100;
-}
-
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -822,7 +808,6 @@ textarea:focus {
 .email-form input[type="email"] {
   display: block;
 }
-
 
 /* Footer */
 
