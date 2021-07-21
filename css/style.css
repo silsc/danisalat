@@ -52,14 +52,15 @@ body {
   color: inherit;
 }
 
-.navbar-lang a:hover {
-  color: #D79404;
+.navbar-lang svg:hover {
+  fill: #D79404;
   transition: .5s;
   cursor: pointer;
 }
 
-.navbar-lang .iconify {
-  font-size: 3vw;
+.navbar-lang svg {
+  width: 3vw;
+  height: 3vw;
 }
 
 /* Tooltip */
@@ -293,11 +294,12 @@ body {
   line-height: 32px;
 }
 
-.servicios-produccion .iconify {
+.servicios-produccion svg {
   position: relative;
-  left: calc(50% - 0.5em);
-  font-size: 7vw;
-  color: #d79404;
+  left: calc(40% - 0.5em);
+  width: 7vw;
+  height: 7vw;
+  fill: #d79404;
 }
 
 .servicios-mezcla {
@@ -317,11 +319,12 @@ body {
   line-height: 32px;
 }
 
-.servicios-mezcla .iconify {
+.servicios-mezcla svg {
   position: relative;
-  left: calc(50% - 0.5em);
-  font-size: 7vw;
-  color: #d79404;
+  left: calc(40% - 0.5em);
+  width: 7vw;
+  height: 7vw;
+  fill: #d79404;
 }
 
 /* Sobre mi */
@@ -697,26 +700,30 @@ input:nth-of-type(5):checked ~ main#carousel {
   margin-bottom:  30%;
 }
 
-.contact-email .iconify, .contact-location .iconify {
+.contact-email svg, .contact-location svg {
   padding:  0;
   align-self:: center;
   text-decoration: none;
-  color: #d79404;
+  fill: #d79404;
   margin-right: 3%;
-  font-size: 1.5vw;
+  width: 1.2vw;
 }
 
-.contact-sns a {
+.contact-sns svg {
   text-decoration: none;
-  color: white;
+  fill: white;
   margin-right: 3%;
-  padding: 3% 3% 2% 3%;
-  font-size: 2vw;
+  padding: 3%;
+  width: 2vw;
 }
 
-.contact-sns a:hover {
+#youtube {
+  width: 2.1vw;
+}
+
+.contact-sns svg:hover {
   background: #d79404;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 /* Form */
