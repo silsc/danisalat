@@ -9,6 +9,7 @@ body {
    padding: 0;
    margin: 0;
    position: relative;
+   min-height: 100vh;
 }
 
 /* Navbar */
@@ -793,6 +794,22 @@ textarea:focus {
   font-size: 1.5vw;
 }
 
+label[for=cbox]{
+  color: #1D2638;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+label[for=cbox] a {
+  text-decoration: none;
+  color: #D79404 ;
+}
+
+label[for=cbox] a:hover {
+  text-decoration: none;
+  color: #9a9a9a ;
+}
+
 .name-form label:focus-within, .email-form label:focus-within, .rowtwo-form label:focus-within{
   color: #D79404;
 }
@@ -811,12 +828,21 @@ textarea:focus {
 
 /* Footer */
 
+.bottom {
+ height: 10vw;
+}
+
 #footer {
+  position: absolute;
+  padding: 3%;
+  bottom: 0%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 10vh;
-  padding: 5% 5%;
+}
+
+.footer-container {
 }
 
 .footer-links {

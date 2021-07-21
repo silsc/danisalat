@@ -1,7 +1,10 @@
 ---
   layout: default
-  title: Index
+  title: English
 ---
+<head>
+  <script src="/assets/js/engcookie.js" async></script>
+</head>
 <body>
     <div class="banner-line-vertical"></div>
     <div class="navbar">
@@ -204,4 +207,5 @@
         </div>
       </div>
     </div>
+    <div class="bottom"></div>
 </body>

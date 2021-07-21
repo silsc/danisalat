@@ -2,6 +2,9 @@
 layout: default
 title: Index
 ---
+<head>
+  <script src="/assets/js/espcookie.js" async></script>
+</head>
 <body>
     <div class="banner-line-vertical"></div>
     <div class="navbar">
@@ -204,4 +207,5 @@ title: Index
         </div>
       </div>
     </div>
+    <div class="bottom"></div>
 </body>
