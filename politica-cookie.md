@@ -7,4 +7,5 @@
 </head>
 <body>
   {% include navbar-esp.html src="/cookie-policy" %}
+  {% include footer-esp.html%}
 </body>

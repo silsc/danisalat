@@ -7,5 +7,6 @@
 </head>
 <body>
   {% include navbar-esp.html src="/privacypolicy" %}
+  {% include footer-esp.html%}
 </body>
 

@@ -842,19 +842,11 @@ label[for=cbox] a:hover {
   justify-content: space-between;
 }
 
-.footer-container {
-}
-
-.footer-links {
-  display: flex;
-  align-items: center;
-  color: #D79404;
-}
-
 .footer-links a {
   color: #D79404;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 1vw;
+  font-weight: 400;
   padding: 0px 15%;
 }
 

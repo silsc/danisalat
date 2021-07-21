@@ -190,4 +190,5 @@
       </div>
     </div>
     <div class="bottom"></div>
+    {% include footer-en.html%}
 </body>
