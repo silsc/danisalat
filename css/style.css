@@ -293,7 +293,7 @@ body {
   font-weight: 400;
   font-size:  1.15vw;
   text-align: justify;
-  line-height: 32px;
+  line-height: 3em;
 }
 
 .servicios-produccion svg {
@@ -318,7 +318,7 @@ body {
   font-weight: 400;
   font-size:  1.15vw;
   text-align: justify;
-  line-height: 32px;
+  line-height: 3em;
 }
 
 .servicios-mezcla svg {
@@ -437,7 +437,7 @@ body {
   font-size: 1.15vw;
   font-weight: 400;
   text-align: justify;
-  line-height: 4vw;
+  line-height: 3em;
 }
 
 .sobre-mi-button {
@@ -856,7 +856,6 @@ label[for=cbox] a:hover {
   text-decoration: none;
   font-size: 1vw;
   font-weight: 400;
-  padding: 0px 15%;
 }
 
 .footer-links a:hover {
