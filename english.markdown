@@ -6,7 +6,7 @@
   <script src="/assets/js/engcookie.js" async></script>
 </head>
 <body>
-  {% include navbar-en.html %}
+  {% include navbar-en.html src="/index" %}
     <div class="banner-line-vertical"></div>
     <div id="home">
         <div class="banner-title">

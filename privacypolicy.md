@@ -6,5 +6,5 @@
     <script src="/assets/js/engcookie.js" async></script>
 </head>
 <body>
-  {% include navbar-en.html %}
+  {% include navbar-en.html src="politicaprivacidad"%}
 </body>
