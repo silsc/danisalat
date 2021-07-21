@@ -6,26 +6,8 @@ title: Index
   <script src="/assets/js/espcookie.js" async></script>
 </head>
 <body>
+    {% include navbar-esp.html %}
     <div class="banner-line-vertical"></div>
-    <div class="navbar">
-        <div class="navbar-links">
-            <a class="navbar-logo" href="#">
-                <img src="/assets/images/ellipse.png"/>
-            </a>
-            <a class="nav-link" href="#home">Home</a>
-            <a class="nav-link" href="#servicios">Servicios</a>
-            <a class="nav-link" href="#sobremi">Sobre mí</a>
-            <a class="nav-link" href="#trabajo">Trabajos</a>
-            <a class="nav-link" href="#opiniones">Opiniones</a>
-            <a class="nav-link" href="#contacto">Contacto</a>
-        </div>
-        <div class="navbar-lang tooltip">
-          <a href="/english">
-            <span class="iconify" data-inline="false" data-icon="fontisto:world-o"></span>
-            <span class="tooltiptext">English</span>
-          </a>
-        </div>
-    </div>
     <div id="home">
         <div class="banner-title">
             <h1>Dani Salat</h1>

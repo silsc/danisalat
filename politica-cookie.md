@@ -1,6 +1,6 @@
 ---
   layout: default
-  title: Política de Privacidad
+  title: Política de Cookies
 ---
 <head>
     <script src="/assets/js/espcookie.js" async></script>
@@ -8,4 +8,3 @@
 <body>
   {% include navbar-esp.html %}
 </body>
-

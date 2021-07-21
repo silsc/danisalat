@@ -2,10 +2,10 @@
 var purecookieTitle = "Cookies";
 
 // popup content
-var purecookieDesc = "By using this website, you automatically accept that we use cookies.";
+var purecookieDesc = "By using this website, you automatically accept that we use cookies.<br>";
 
 // policy link
-var purecookieLink = '<a href="cookie-policy" target="_blank">What for?</a>';
+var purecookieLink = '<a href="cookie-policy" target="_blank">More information</a>';
 
 // button text
 var purecookieButton = "Understood";
