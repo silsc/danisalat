@@ -5,21 +5,27 @@ layout: default
 
 <style type="text/css" media="screen">
   .container {
-    margin: 10px auto;
+    margin: 10% auto;
     max-width: 600px;
     text-align: center;
   }
   h1 {
-    margin: 30px 0;
-    font-size: 4em;
+    margin: 8% 0;
+    font-size: 3em;
     line-height: 1;
     letter-spacing: -1px;
   }
+  p {
+    color: white;
+    font-weight: 400;
+  }
 </style>
-
+{% include navbar-esp.html src="/index" %}
 <div class="container">
-  <h1>404</h1>
 
-  <p><strong>Page not found 😢</strong></p>
+  <h1><strong>Ups, nothing to see here 😢</strong></h1>
   <p>The requested page could not be found.</p>
+  <p>Please go back to the main page or contact me to notify the error.</p>
+
 </div>
+ {% include footer-esp.html%}
