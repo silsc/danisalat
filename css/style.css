@@ -872,11 +872,14 @@ label[for=cbox] a:hover {
 
 
 @media only screen and (max-width: 600px) {
+  .navbar {
+    margin-top: 1.5vh;
+  }
   .nav-link {
     display: none;
   }
   #home {
-    min-height: 80vh;
+    min-height: 65vh;
   }
   .navbar-logo img{
     width: 15vw;
@@ -891,8 +894,17 @@ label[for=cbox] a:hover {
   .banner-title {
     font-size: 6.5vw;
   }
+
+  .banner-title h1 {
+    margin:  0;
+  }
+
   .banner-info {
     font-size: 2.5vw;
+  }
+
+  .banner-info h4 {
+    margin-top: 0;
   }
   .tooltip .tooltiptext {
     width: 15vw;
@@ -914,4 +926,8 @@ label[for=cbox] a:hover {
     left: 65%;
     font-size: 3vw;
   }
+  .banner-line-vertical {
+  height: 70vh;
+  top: 15vh;
+}
 }
