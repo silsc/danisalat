@@ -889,10 +889,10 @@ label[for=cbox] a:hover {
     height: 5vw;
   }
   .banner-title {
-    font-size: 2em;
+    font-size: 6.5vw;
   }
   .banner-info {
-    font-size: 0.7em;
+    font-size: 2.5vw;
   }
   .tooltip .tooltiptext {
     width: 15vw;
@@ -908,6 +908,7 @@ label[for=cbox] a:hover {
   .banner-text {
   font-size: 4.5vw;
   }
+
   .banner-button {
     top: 55%;
     left: 65%;
