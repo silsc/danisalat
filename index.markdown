@@ -123,43 +123,64 @@ title: Index
     </div>
     <div id="opiniones">
       <h2>Opiniones</h2>
-      <div class="carousel-container">
-      <input type="radio" name="position" checked />
-      <input type="radio" name="position" />
-      <input type="radio" name="position" />
-      <input type="radio" name="position" />
-      <input type="radio" name="position" />
-      <main id="carousel">
-        <div class="item">
-          <div class="item-info">
-          <h4>Nombre</h4>
-          <h5>otra info</h5>
-          </div>
-          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+      <div id="flex-container" class="testimonials">
+        <div id="left-zone">
+          <ul class="list">
+            <li class="item">
+              <input type="radio" id="radio_testimonial-1" name="basic_carousel" checked="checked" />
+              <label class="label label_testimonial-1" for="radio_testimonial-1">Review 1</label>
+              <div class="content-test content_testimonial-1">
+                <div class="review-text">
+                  <h1>Review 2</h1>
+                  <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
+                  <p class="testimonialFrom">Bill, Owner</p>
+                  <p class="testimonialState">Tucson, AZ</p>
+                </div>
+                <span class="picto"></span>
+              </div>
+            </li>
+            <li class="item">
+              <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
+              <label class="label label_testimonial-2" for="radio_testimonial-2">Review 2</label>
+              <div class="content-test content_testimonial-2">
+                <div class="review-text">
+                  <h1>Review 2</h1>
+                  <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
+                  <p class="testimonialFrom">Bill, Owner</p>
+                  <p class="testimonialState">Tucson, AZ</p>
+                </div>
+                <span class="picto"></span>
+              </div>
+            </li>
+            <li class="item">
+              <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
+              <label class="label label_testimonial-3" for="radio_testimonial-3">Review 3</label>
+              <div class="content-test content_testimonial-3">
+                <div class="review-text">
+                  <h1>Review 2</h1>
+                  <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
+                  <p class="testimonialFrom">Bill, Owner</p>
+                  <p class="testimonialState">Tucson, AZ</p>
+                </div>
+                <span class="picto"></span>
+              </div>
+            </li>
+            <li class="item">
+              <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
+              <label class="label label_testimonial-4" for="radio_testimonial-4">Review 4</label>
+              <div class="content-test content_testimonial-4">
+                <div class="review-text">
+                  <h1>Review 2</h1>
+                  <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
+                  <p class="testimonialFrom">Bill, Owner</p>
+                  <p class="testimonialState">Tucson, AZ</p>
+                </div>
+                <span class="picto"></span>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="item">
-          <div class="item-info">
-          <h4>Nombre</h4>
-          <h5>otra info</h5>
-          </div>
-          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
-        </div>
-        <div class="item">
-          <div class="item-info">
-          <h4>Nombre</h4>
-          <h5>otra info</h5>
-          </div>
-          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
-        </div>
-        <div class="item">
-          <div class="item-info">
-          <h4>Nombre</h4>
-          <p>otra info</p>
-          </div>
-          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
-        </div>
-        <div class="item"></div>
-        </main>
+        <div id="right-zone"></div>
       </div>
     </div>
     <div id="contacto">
