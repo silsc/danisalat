@@ -600,6 +600,12 @@ audio {
   width: 20vw;
 }
 
+@media screen and (max-width: 600px) {
+  #trabajo h2 {
+    font-size: 7vw;
+  }
+}
+
 /* Opiniones */
 
 #opiniones {
@@ -612,114 +618,135 @@ audio {
   font-size: 4vw;
 }
 
+@media screen and (max-width: 600px) {
+  #opiniones h2 {
+    font-size: 7vw;
+  }
+}
 /* Carousel */
 
-.carousel-container {
-  margin: 0;
-  display: grid;
-  grid-template-rows: 30vw 10vw;
-  grid-template-columns: 1fr 5vw 5vw 5vw 5wv 1fr;
-  align-items: center;
-  justify-items: center;
-}
-
-main#carousel {
-  grid-row: 1 / 2;
-  grid-column: 1 / 8;
-  width: 100vw;
-  height: 100vh;
+#flex-container {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  height: 35em;
+  max-width: 80vw;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   overflow: hidden;
-  transform-style: preserve-3d;
-  perspective: 600px;
-  --items: 5;
-  --middle: 3;
-  --position: 1;
-  pointer-events: none;
+  flex-direction: column;
+  position: relative;
 }
 
-div.item {
-  position: absolute;
-  width: 30vw;
-  height: 35vh;
-  background-color: white;
-  padding: 3%;
-  box-shadow: 5px 5px 13px 5px rgba(0,0,0,0.5);
-  --r: calc(var(--position) - var(--offset));
-  --abs: max(calc(var(--r) * -1), var(--r));
-  transition: all 0.25s linear;
-  transform: rotateY(calc(-10deg * var(--r)))
-    translateX(calc(-300px * var(--r)));
-  z-index: calc((var(--position) - var(--abs)));
+#right-zone {
+  height: 60%;
+  width: 85%;
 }
 
-div.item:nth-of-type(1) {
-  --offset: 1;
-}
-div.item:nth-of-type(2) {
-  --offset: 2;
-}
-div.item:nth-of-type(3) {
-  --offset: 3;
-}
-div.item:nth-of-type(4) {
-  --offset: 4;
-}
-div.item:nth-of-type(5) {
-  --offset: 5;
-}
-
-input:nth-of-type(1) {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(1):checked ~ main#carousel {
-  --position: 1;
-}
-
-input:nth-of-type(2) {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(2):checked ~ main#carousel {
-  --position: 2;
-}
-
-input:nth-of-type(3) {
-  grid-column: 4 /5;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(3):checked ~ main#carousel {
-  --position: 3;
-}
-
-input:nth-of-type(4) {
-  grid-column: 5 / 6;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(4):checked ~ main#carousel {
-  --position: 4;
-}
-
-input:nth-of-type(5) {
-  grid-column: 6 / 7;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(5):checked ~ main#carousel {
-  --position: 5;
-}
-
-.item-info {
+#left-zone {
+  height: 50%;
+  width: 20%;
   display: flex;
 }
 
-.item-info h5{
-  color: #1D2638;
-  font-weight: 400;
-  margin-left: 5%;
-  align-self: center;
+#left-zone .list {
+  display: flex;
+  list-style: none;
+  align-content: stretch;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  border-right: 2px solid #cccccc;
+}
+
+.item input {
+  display: none;
+}
+
+.label {
+  display: block;
+  opacity: 0.5;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  color: #31405d;
+  font-size: 1.2vw;
+}
+
+.label:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.content-test {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  pointer-events: auto;
+  width: 55%;
+}
+
+.content-test p {
+  width: 30vw;
+}
+
+input:checked ~ .content-test {
+  -webkit-animation: fadein .8s;
+  opacity: 1;
+}
+
+.content-test h1 {
+  color: #D79404;
+  font-size: 3vw;
+}
+
+input:checked ~ label {
+  opacity: 1;
+  color: #D79404;
+  border-right: solid 4px #D79404;
+}
+
+label.label_testimonial-1:before, label.label_testimonial-2:before, label.label_testimonial-3:before, label.label_testimonial-4:before   {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  background-position: center;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+label:first-letter {
+  text-transform: uppercase;
+}
+
+.label:hover {
+  font-size: 1.3vw;
+  transition: font-size 0.5s;
+}
+
+p.testimonialState {
+  margin-top: -5px;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #808080d4;
+}
+
+p.testimonialFrom {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #33475c;
 }
 
 .item p {
@@ -727,7 +754,29 @@ input:nth-of-type(5):checked ~ main#carousel {
   font-weight: 400;
   font-size:  1.15vw;
   text-align: justify;
-  line-height: 32px;
+  line-height: 3em;
+}
+
+@media screen and (max-width: 600px) {
+  .label {
+    font-size: 2vw;
+  }
+  .label:hover {
+    font-size: 2.2vw;
+  }
+  #flex-container {
+    height: 15em;
+    padding: 0 3% 3% 3%;
+  }
+  .content-test {
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+  }
+  #right-zone {
+    height: 60%;
+  }
+
 }
 
 /* Contacto */
@@ -1021,226 +1070,4 @@ label[for=cbox] a:hover {
   }
 }
 
-#flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 400px;
-  height: 110vh;
-  max-width: 80vw;
-  margin: auto;
-  padding:  5%;
-  background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  overflow: hidden;
-  flex-direction: column;
-  position: relative;
-}
-
-#left-zone {
-  height: 50%;
-  flex: 0 0 auto;
-  display: flex;
-  width: 65%;
-}
-
-#left-zone .list {
-  display: flex;
-  list-style: none;
-  align-content: stretch;
-  flex-direction: column;
-  flex: 1 1 auto;
-  margin: auto;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.item input {
-  display: none;
-}
-
-.label {
-  display: block;
-  opacity: 0.5;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  position: relative;
-  color: #31405d;
-}
-
-.label:hover {
-  opacity: 1;
-  cursor: pointer;
-}
-
-.content-test {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  /*transform: translateY(100%);*/
-  height: 50%;
-  width: 100%;
-  /*transition: 0.5s ease-out;*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
-}
-
-.content-test p {
-  /*max-width: 50%;*/
-  width: 30vw;
-}
-
-#right-zone {
-  width: 100%;
-  /*flex: 1 0 auto;
-  height: 50%;*/
-}
-
-input:checked ~ .content-test {
-  transform: translateY(0%);
-  transition: transform 0.2s;
-  opacity: 1;
-}
-
-@media (min-width: 480px) {
-  #flex-container {
-    flex-direction: row;
-    min-height: auto;
-    height: 400px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-
-  #left-zone .list {
-    border-right: 2px solid #cccccc;
-  }
-
-  .content-test {
-    width: 55%;
-    height: 100%;
-    pointer-events: auto;
-  }
-
-  #left-zone {
-    width: 35%;
-  }
-
-  #right-zone {
-    height: 100%;
-    width: 65%;
-  }
-}
-
-@media (max-width: 480px) {
-  .content_testimonial-1 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-2 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-3 .picto {
-    padding-top: 100px;
-  }
-  .content_testimonial-4 .picto {
-    padding-top: 100px;
-  }
-  .item > label {
-    font-size: 1.3rem;
-  }
-}
-
-.content_testimonial-1 .picto {
-  height: 300px;
-  width: 300px;
-  background-image: url("https://i.postimg.cc/RFBHkG46/diamond-Pest-Logo-small.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.content_testimonial-1 h1, .content_testimonial-2 h1, .content_testimonial-3 h1, .content_testimonial-4 h1 {
-  color: #D79404;
-  text-align: center;
-}
-
-.content_testimonial-2 .picto {
-  height: 300px;
-  width: 300px;
-  background-image: url("https://i.postimg.cc/bsqXXKCV/a-Plus-Handyman-Logo.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.content_testimonial-3 .picto {
-  height: 300px;
-  width: 300px;
-  background-image: url("https://i.postimg.cc/zV7sq04z/mod-Movers-Logo.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.content_testimonial-4 .picto {
-  height: 300px;
-  width: 300px;
-  background-image: url("https://i.postimg.cc/4Y3rypTz/ak-Pest-Control-Logo.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.content-test h1:first-letter {
-  text-transform: uppercase;
-}
-
-input:checked ~ label {
-  opacity: 1;
-  animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  color: #D79404;
-  border-right: solid 4px #D79404;
-}
-
-label.label_testimonial-1:before, label.label_testimonial-2:before, label.label_testimonial-3:before, label.label_testimonial-4:before   {
-  content: " ";
-  display: block;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  margin-left: 15px;
-  background-position: center;
-  background-size: 75% 75%;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-}
-
-label:first-letter {
-  text-transform: uppercase;
-}
-
-.label_testimonial-1:hover, .label_testimonial-2:hover , .label_testimonial-3:hover, .label_testimonial-4:hover  {
-  font-size: 1.1rem;
-  transition: font-size 0.5s;
-}
-
-p.testimonialState {
-  margin-top: -5px;
-  font-size: 0.8rem;
-  font-style: italic;
-  color: #808080d4;
-}
-
-p.testimonialFrom {
-  margin-top: 5px;
-  font-weight: bold;
-  color: #33475c;
-}
 

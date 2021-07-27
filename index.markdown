@@ -131,12 +131,12 @@ title: Index
               <label class="label label_testimonial-1" for="radio_testimonial-1">Review 1</label>
               <div class="content-test content_testimonial-1">
                 <div class="review-text">
-                  <h1>Review 2</h1>
+                  <h1>Name</h1>
                   <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
-                  <p class="testimonialFrom">Bill, Owner</p>
-                  <p class="testimonialState">Tucson, AZ</p>
+                  <p class="testimonialFrom">Band and role</p>
+                  <p class="testimonialState">City</p>
                 </div>
-                <span class="picto"></span>
+                <img src="/assets/images/chan-shoulder.jpg" style="width: 80%; margin-left: 5%"/>
               </div>
             </li>
             <li class="item">
@@ -144,12 +144,12 @@ title: Index
               <label class="label label_testimonial-2" for="radio_testimonial-2">Review 2</label>
               <div class="content-test content_testimonial-2">
                 <div class="review-text">
-                  <h1>Review 2</h1>
+                  <h1>Name</h1>
                   <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
-                  <p class="testimonialFrom">Bill, Owner</p>
-                  <p class="testimonialState">Tucson, AZ</p>
+                  <p class="testimonialFrom">Band and role</p>
+                  <p class="testimonialState">City</p>
                 </div>
-                <span class="picto"></span>
+                <img src="/assets/images/chan-shoulder.jpg" style="width: 80%; margin-left: 5%"/>
               </div>
             </li>
             <li class="item">
@@ -157,12 +157,12 @@ title: Index
               <label class="label label_testimonial-3" for="radio_testimonial-3">Review 3</label>
               <div class="content-test content_testimonial-3">
                 <div class="review-text">
-                  <h1>Review 2</h1>
+                  <h1>Name</h1>
                   <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
                   <p class="testimonialFrom">Bill, Owner</p>
                   <p class="testimonialState">Tucson, AZ</p>
                 </div>
-                <span class="picto"></span>
+                <img src="/assets/images/chan-shoulder.jpg" style="width: 80%; margin-left: 5%"/>
               </div>
             </li>
             <li class="item">
@@ -170,12 +170,11 @@ title: Index
               <label class="label label_testimonial-4" for="radio_testimonial-4">Review 4</label>
               <div class="content-test content_testimonial-4">
                 <div class="review-text">
-                  <h1>Review 2</h1>
+                  <h1>Name</h1>
                   <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
                   <p class="testimonialFrom">Bill, Owner</p>
                   <p class="testimonialState">Tucson, AZ</p>
                 </div>
-                <span class="picto"></span>
               </div>
             </li>
           </ul>
