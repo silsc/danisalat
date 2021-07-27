@@ -26,6 +26,7 @@ body {
   margin: 3% 0 0 4%;
   text-decoration: none;
 }
+
 .navbar-logo img{
   width: 10vw;
 }
@@ -867,4 +868,49 @@ label[for=cbox] a:hover {
   color: #D79404;
   font-weight: 400;
   font-size: 1.15vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    display: none;
+  }
+  #home {
+    min-height: 80vh;
+  }
+  .navbar-logo img{
+    width: 15vw;
+  }
+  .navbar-lang a {
+    margin-right: 2vw;
+  }
+  .navbar-lang svg {
+    width: 5vw;
+    height: 5vw;
+  }
+  .banner-title {
+    font-size: 2em;
+  }
+  .banner-info {
+    font-size: 0.7em;
+  }
+  .tooltip .tooltiptext {
+    width: 15vw;
+    top: 55%;
+    left: 80%;
+  }
+  .banner-image {
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    left: 20%;
+  }
+  .banner-text {
+  font-size: 4.5vw;
+  }
+  .banner-button {
+    top: 55%;
+    left: 65%;
+    font-size: 3vw;
+  }
 }
