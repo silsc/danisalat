@@ -129,8 +129,7 @@ title: Index
         <div class="spotify">
           <h5>¿Quieres escuchar otros trabajos en los que he participado?</h5>
           <h5>¿Otros estilos de música?</h5>
-          <p><a href="#contacto">Contáctame</a> o escucha <a href="https://open.spotify.com/playlist/2nwVcowWfYhXXqkmVgGVNK?si=586a412f544a44e7
-">mi playlist en Spotify</a></p>
+          <p><a href="#contacto">Contáctame</a> o escucha <a href="https://open.spotify.com/playlist/2nwVcowWfYhXXqkmVgGVNK?si=586a412f544a44e7">mi playlist en Spotify</a></p>
         </div>
     </div>
     <div id="opiniones">
@@ -140,52 +139,45 @@ title: Index
           <ul class="list">
             <li class="item">
               <input type="radio" id="radio_testimonial-1" name="basic_carousel" checked="checked" />
-              <label class="label label_testimonial-1" for="radio_testimonial-1">Review 1</label>
+              <label class="label label_testimonial-1" for="radio_testimonial-1">Dez</label>
               <div class="content-test content_testimonial-1">
+                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <h1>Name</h1>
-                  <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
-                  <p class="testimonialFrom">Band and role</p>
-                  <p class="testimonialState">City</p>
+                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
                 </div>
-                <img src="/assets/images/chan-shoulder.jpg" style="width: 80%; margin-left: 5%"/>
               </div>
             </li>
             <li class="item">
               <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
               <label class="label label_testimonial-2" for="radio_testimonial-2">Review 2</label>
               <div class="content-test content_testimonial-2">
+                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <h1>Name</h1>
-                  <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
-                  <p class="testimonialFrom">Band and role</p>
-                  <p class="testimonialState">City</p>
+                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
                 </div>
-                <img src="/assets/images/chan-shoulder.jpg" style="width: 80%; margin-left: 5%"/>
               </div>
             </li>
             <li class="item">
               <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
               <label class="label label_testimonial-3" for="radio_testimonial-3">Review 3</label>
               <div class="content-test content_testimonial-3">
+                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <h1>Name</h1>
-                  <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
-                  <p class="testimonialFrom">Bill, Owner</p>
-                  <p class="testimonialState">Tucson, AZ</p>
+                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
                 </div>
-                <img src="/assets/images/chan-shoulder.jpg" style="width: 80%; margin-left: 5%"/>
               </div>
             </li>
             <li class="item">
               <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
               <label class="label label_testimonial-4" for="radio_testimonial-4">Review 4</label>
               <div class="content-test content_testimonial-4">
+                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <h1>Name</h1>
-                  <p>“Quite simply… the service offers prompt response time to my visitors and helps me to better know what type of project a potential customer wants.”</p>
-                  <p class="testimonialFrom">Bill, Owner</p>
-                  <p class="testimonialState">Tucson, AZ</p>
+                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
                 </div>
               </div>
             </li>

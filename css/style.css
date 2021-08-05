@@ -734,7 +734,7 @@ audio {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 35em;
+  height: 35vw;
   max-width: 80vw;
   margin: auto;
   background-color: #fff;
@@ -774,9 +774,8 @@ audio {
 .label {
   display: block;
   opacity: 0.5;
-  height: 50px;
   text-align: center;
-  line-height: 50px;
+  line-height: 4vw;
   position: relative;
   color: #31405d;
   font-size: 1.2vw;
@@ -789,8 +788,8 @@ audio {
 
 .content-test {
   position: absolute;
-  right: 15%;
-  top: 20%;
+  right: 20%;
+  top: 25%;
   opacity: 0;
   display: flex;
   align-items: center;
@@ -799,17 +798,16 @@ audio {
 }
 
 .content-test p {
-  width: 30vw;
+  width: 40vw;
+}
+
+.content-test img {
+
 }
 
 input:checked ~ .content-test {
   -webkit-animation: fadein .8s;
   opacity: 1;
-}
-
-.content-test h1 {
-  color: #D79404;
-  font-size: 3vw;
 }
 
 input:checked ~ label {
@@ -847,10 +845,21 @@ p.testimonialState {
   color: #808080d4;
 }
 
-p.testimonialFrom {
-  margin-top: 5px;
+.review-text {
+  margin-left: 5%;
+}
+
+.review-text p.reviewname {
+  margin-top: 2%;
   font-weight: bold;
+  color: #d79404;
+  font-size: 1.3vw;
+}
+
+.review-text p.reviewname .reviewBand{
   color: #33475c;
+  font-weight: 400;
+  font-size: 1vw;
 }
 
 .item p {
@@ -858,7 +867,7 @@ p.testimonialFrom {
   font-weight: 400;
   font-size:  1.15vw;
   text-align: justify;
-  line-height: 3em;
+  line-height: 2.2vw;
 }
 
 @media screen and (max-width: 600px) {
@@ -869,7 +878,7 @@ p.testimonialFrom {
     font-size: 2.2vw;
   }
   #flex-container {
-    height: 15em;
+    /*height: 15vw;*/
     padding: 0 3% 3% 3%;
   }
   .content-test {
