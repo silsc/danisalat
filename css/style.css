@@ -532,7 +532,7 @@ body {
 
 .sobre-mi-button {
   position: absolute;
-  bottom: 15%;
+  bottom: 7%;
   right: 15%;
   padding: 2% 8%;
   background-color: #2C3A54;
@@ -547,7 +547,7 @@ body {
   position: absolute;
   border-top: 1px solid black;
   width: 100vw;
-  top: 110%;
+  top: 115%;
 }
 
 .sobre-mi-button:hover {
@@ -604,6 +604,43 @@ audio {
   #trabajo h2 {
     font-size: 7vw;
   }
+  .cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 1%;
+  width: 40vw;
+  margin: 5% 20%;
+}
+
+.song-container {
+  position: relative;
+  width: 40vw;
+}
+
+.song-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.song-info {
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 1vw;
+  color: #1D2638;;
+  font-weight: 400;
+}
+
+audio {
+  width: 40vw;
+}
 }
 
 /* Opiniones */

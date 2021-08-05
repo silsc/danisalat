@@ -23,7 +23,7 @@ title: Index
             <h2 class="effect-shine">DEFINICIÓN</h2>
             <h2 class="effect-shine">PROFUNDIDAD</h2>
         </div>
-        <a class="banner-button" href="#contacto">Let's talk</a>
+        <a class="banner-button" href="#contacto">Contacta ya!</a>
         <div class="banner-line-horizontal-one">
         </div>
         <div class="banner-line-horizontal-two">
@@ -55,15 +55,16 @@ title: Index
             <div class="servicios-produccion">
               <svg version="1.1" id="production" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 121.61" style="enable-background:new 0 0 122.88 121.61" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M73.12,0H88.6v5.17c38.74,8.87,43.17,27.47,20.7,56.79c2.39-29.09-0.54-35.33-20.7-36.68v73.54 c0.04,0.39,0.05,0.78,0.05,1.18c0,9.56-10.03,19.04-22.4,21.18c-12.37,2.14-22.4-3.88-22.4-13.44c0-13.04,17.91-24.36,29.26-20.37 L73.12,0L73.12,0z M5.69,73.78C2.55,73.78,0,71.23,0,68.09c0-3.14,2.55-5.69,5.69-5.69h47.63c3.14,0,5.69,2.55,5.69,5.69 c0,3.14-2.55,5.69-5.69,5.69H5.69L5.69,73.78z M5.69,46.14C2.55,46.14,0,43.59,0,40.44c0-3.14,2.55-5.69,5.69-5.69h47.63 c3.14,0,5.69,2.55,5.69,5.69c0,3.14-2.55,5.69-5.69,5.69H5.69L5.69,46.14z M5.69,18.5C2.55,18.5,0,15.95,0,12.8 c0-3.14,2.55-5.69,5.69-5.69h47.63c3.14,0,5.69,2.55,5.69,5.69c0,3.14-2.55,5.69-5.69,5.69H5.69L5.69,18.5z"/></g></svg>
               <h4>Producción</h4>
-              <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                    double click me to add your own content and make changes to</p>
+              <p>Al hacer música es difícil expresar emociones y a la vez ser objetivos. Mi trabajo es definir una visión única para cada banda y tomar las decisiones difíciles, musicales y de sonido, para que el proyecto sea un éxito.
+              <br>Es fácil pasar desapercibido en Spotify. Si crees en tu música, merece ser escuchada.
+              </p>
             </div>
             <div class="servicios-mezcla">
               <svg version="1.1" id="mix" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="115.618px" height="122.88px" viewBox="0 0 115.618 122.88" enable-background="new 0 0 115.618 122.88" xml:space="preserve"><g><path fill-rule="evenodd" clip-rule="evenodd" d="M16.151,0L16.151,0c5.292,0,9.621,4.33,9.621,9.622v21.595 c-2.864-1.43-6.095-2.236-9.514-2.236c-3.504,0-6.811,0.845-9.728,2.342V9.622C6.53,4.33,10.859,0,16.151,0L16.151,0z M99.36,34.06 c8.979,0,16.258,7.278,16.258,16.257c0,8.979-7.279,16.258-16.258,16.258s-16.257-7.278-16.257-16.258 C83.104,41.338,90.382,34.06,99.36,34.06L99.36,34.06z M99.254,0L99.254,0c5.292,0,9.621,4.33,9.621,9.622v21.595 c-2.864-1.43-6.095-2.236-9.515-2.236c-3.504,0-6.811,0.845-9.728,2.342V9.622C89.633,4.33,93.962,0,99.254,0L99.254,0z M108.875,69.417v43.842c0,5.291-4.329,9.621-9.621,9.621l0,0c-5.292,0-9.621-4.33-9.621-9.621V69.312 c2.917,1.496,6.224,2.341,9.728,2.341C102.78,71.652,106.011,70.847,108.875,69.417L108.875,69.417z M57.617,93.896 c8.979,0,16.257-7.278,16.257-16.257c0-8.979-7.278-16.258-16.257-16.258c-8.979,0-16.257,7.278-16.257,16.258 C41.36,86.617,48.638,93.896,57.617,93.896L57.617,93.896z M57.51,122.88L57.51,122.88c5.292,0,9.622-4.331,9.622-9.621V96.689 c-2.864,1.43-6.053,2.236-9.515,2.236s-6.811-0.846-9.728-2.343v16.676C47.89,118.55,52.219,122.88,57.51,122.88L57.51,122.88z M67.132,58.489V9.622C67.132,4.331,62.802,0,57.51,0l0,0c-5.292,0-9.621,4.33-9.621,9.622v48.974 c2.917-1.497,6.266-2.343,9.728-2.343S64.268,57.06,67.132,58.489L67.132,58.489z M16.257,34.06 c8.979,0,16.257,7.278,16.257,16.257c0,8.979-7.278,16.258-16.257,16.258C7.279,66.574,0,59.296,0,50.316 C0,41.338,7.279,34.06,16.257,34.06L16.257,34.06z M25.771,69.417v43.842c0,5.291-4.329,9.621-9.621,9.621l0,0 c-5.292,0-9.621-4.33-9.621-9.621V69.312c2.917,1.496,6.224,2.341,9.728,2.341C19.677,71.652,22.907,70.847,25.771,69.417 L25.771,69.417z"/></g></svg>
               <h4>Mezcla</h4>
-              <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                    double
-                    click me to add your own content and make changes to</p>
+              <p>Las producciones DIY corren el riesgo de sonar a maqueta. Creo que los músicos tienen que saber autoproducirse y tener una visión, pero es difícil conseguir resultados, y necesitas alguien que sepa cómo darle impacto y energía al sonido.
+              <br>Si no has empezado aún, puedo aconsejarte durante el proceso para tomar las mejores decisiones.
+              </p>
             </div>
         </div>
     </div>
@@ -77,12 +78,14 @@ title: Index
         </div>
         <div class="sobre-mi-text">
             <h2>Sobre mi</h2>
-            <h3>Tengo...</h3>
-            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                double click me to add your own content and make changes to the font. Feel free to drag and drop me
-                anywhere you like on your page. I’m a great place for you to tell a story and let your users know a
-                little more about you.</p>
-            <a class="sobre-mi-button" href="#contacto">Let's talk</a>
+            <!-- <h3>Tengo...</h3> -->
+            <p>Llevo haciendo música y tocando en bandas desde que tengo recuerdo, y sé lo difícil que es que la gente te tome en serio como artista y se interese en tu música.
+            Desde que empecé a producir hace pocos años, más allá del sonido, mi principal obsesión ha sido aprender cómo coño hacer para ayudar a las bandas a avanzar en sus carreras.
+            <br>La música es mucho más que sonar bien. Hay que escribir buena música, tocarla bien, tener una visión, crear merch llamativo, videoclips interesantes, buscar bolos, promocionarse bien, etc.
+            Es intimidante y mi objetivo es poder aportar a las bandas en cada paso para tener el mejor producto posible.
+            <br>Cada día se suben a Spotify 60 mil canciones (no, no es un error), y es muy fácil ser un número más. Quiero trabajar con bandas con ganas de cambiar la industria, mejorar con cada CD, hablar de temas importantes y, sobre todo, hacer que el esfuerzo, la música y el arte valgan la pena.
+            </p>
+            <a class="sobre-mi-button" href="#contacto">Contacta ya!</a>
         </div>
         <div class="sobremi-line-horizontal"></div>
     </div>
@@ -190,7 +193,7 @@ title: Index
       <div class="wrapper">
         <div class="contact-info">
           <h3>Información de contacto</h3>
-          <p>Rellena el formulario y me pondré en contacto contigo en menos de 24 horas.</p>
+          <p>Mándame un mensaje y me pondré en contacto contigo para conocerte a ti, tu proyecto y tus objetivos, y definir qué puedo aportar a tu música.</p>
           <div class="contact-email">
             <svg id="email" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 88.86"><title>email</title><path d="M7.05,0H115.83a7.07,7.07,0,0,1,7,7.05V81.81a7,7,0,0,1-1.22,4,2.78,2.78,0,0,1-.66,1,2.62,2.62,0,0,1-.66.46,7,7,0,0,1-4.51,1.65H7.05a7.07,7.07,0,0,1-7-7V7.05A7.07,7.07,0,0,1,7.05,0Zm-.3,78.84L43.53,40.62,6.75,9.54v69.3ZM49.07,45.39,9.77,83.45h103L75.22,45.39l-11,9.21h0a2.7,2.7,0,0,1-3.45,0L49.07,45.39Zm31.6-4.84,35.46,38.6V9.2L80.67,40.55ZM10.21,5.41,62.39,47.7,112.27,5.41Z"/></svg>
             <p>email: danielsalat@gmail.com</p>
