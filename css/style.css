@@ -902,21 +902,19 @@ p.testimonialFrom {
 .sub-contacto p {
   text-align: center;
   font-size: 1.5vw;
-  margin-bottom: 5%;
+  margin-bottom: 2.5%;
   font-weight: 400;
   color: #9a9a9a;
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
 }
 
 .contact-info {
-  grid-column-start: 1;
-  grid-column-end: 3;
+  width: 30%;
   background: #31405D;
-  padding: 5% 12% 5% 8%;
+  padding: 2% 5%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -932,18 +930,13 @@ p.testimonialFrom {
   margin: 0;
 }
 
-.contact-form {
-  grid-column-start: 3;
-  grid-column-end: 5;
-}
-
 .contact-email, .contact-location {
   display: flex;
   margin: 12% 0;
 }
 
 .contact-location {
-  margin-bottom:  30%;
+  margin-bottom: 10%;
 }
 
 .contact-email svg, .contact-location svg {
