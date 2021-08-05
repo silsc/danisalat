@@ -1098,7 +1098,8 @@ label[for=cbox] a:hover {
 
 @media all and (max-width: 600px) {
   .form {
-    padding: 0;
+    margin: auto;
+    width: 50%;
   }
 
   input[type="text"], input[type="email"],
@@ -1107,7 +1108,7 @@ label[for=cbox] a:hover {
   }
 
   input[type="text"], input[type="email"] {
-    width: 25vw;
+    width: 28vw;
   }
 
   input[type="submit"] {
@@ -1115,7 +1116,7 @@ label[for=cbox] a:hover {
   }
 
   textarea {
-    width: 55vw;
+    width: 61vw;
   }
 
   .name-form label,  .email-form label, .rowtwo-form label{
