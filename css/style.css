@@ -928,6 +928,21 @@ p.testimonialFrom {
   border-radius: 20%;
 }
 
+@media all and (max-width: 600px) {
+  #contacto h2 {
+    font-size: 7vw;
+  }
+  .sub-contacto p {
+    font-size: 3vw;
+  }
+  .wrapper {
+    margin-right: 50%;
+  }
+  .contact-info {
+    display: none;
+  }
+}
+
 /* Form */
 .form {
   display: block;
@@ -1033,6 +1048,37 @@ label[for=cbox] a:hover {
 
 .email-form input[type="email"] {
   display: block;
+}
+
+@media all and (max-width: 600px) {
+  .form {
+    padding: 0;
+  }
+
+  input[type="text"], input[type="email"],
+  button, textarea {
+    font-size: 2.5vw;
+  }
+
+  input[type="text"], input[type="email"] {
+    width: 25vw;
+  }
+
+  input[type="submit"] {
+    font-size: 2.5vw;
+  }
+
+  textarea {
+    width: 50vw;
+  }
+
+  .name-form label,  .email-form label, .rowtwo-form label{
+    font-size: 2.5vw;
+  }
+
+  label[for=cbox]{
+    font-size: 1.5vw;
+  }
 }
 
 /* Footer */
