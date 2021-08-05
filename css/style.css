@@ -140,6 +140,7 @@ body {
 
 .banner-title h1 {
   margin-top: 8%;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /*.banner-title:hover {
@@ -569,6 +570,7 @@ body {
     position: relative;
     height: 120%;
     padding: 5% 5% 20% 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .sobre-mi-text p {
     font-size: 2vw;
@@ -597,6 +599,7 @@ body {
 .card {
   background: white;
   padding: 1%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .song-container {
@@ -622,6 +625,38 @@ body {
 
 audio {
   width: 20vw;
+}
+
+.spotify {
+  background: #31415D;
+  margin: 10% 20%;
+  padding: 3% 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.spotify h5 {
+  text-align: center;
+  font-size: 1.5vw;
+  color:  white;
+  font-weight: 400;
+}
+.spotify p {
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+  font-weight: 700;
+}
+
+.spotify p a {
+  text-decoration: none;
+  color: #d79404 ;
+}
+
+iframe{
+  margin: 5% 30%;
+  width: 20vw;
+  height: 30vw;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 @media screen and (max-width: 600px) {
@@ -695,7 +730,7 @@ audio {
   max-width: 80vw;
   margin: auto;
   background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: hidden;
   flex-direction: column;
   position: relative;
@@ -874,6 +909,7 @@ p.testimonialFrom {
   grid-column-end: 3;
   background: #31405D;
   padding: 5% 12% 5% 8%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .contact-info h3 {

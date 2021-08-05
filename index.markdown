@@ -123,6 +123,12 @@ title: Index
               {% include embed-audio.html src="/assets/audio/Follow-Melting.wav" %}
           </div>
         </div>
+        <div class="spotify">
+          <h5>¿Quieres escuchar otros trabajos en los que he participado?</h5>
+          <h5>¿Otros estilos de música?</h5>
+          <p><a href="#contacto">Contáctame</a> o escucha mi playlist en Spotify:</p>
+          <iframe src="https://open.spotify.com/embed/playlist/2nwVcowWfYhXXqkmVgGVNK" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
     </div>
     <div id="opiniones">
       <h2>Opiniones</h2>
