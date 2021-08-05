@@ -280,7 +280,7 @@ body {
     font-size: 6.5vw;
   }
   .banner-title h1 {
-    margin:  0;
+    margin: 0;
   }
   .banner-info {
     font-size: 2.5vw;
@@ -304,7 +304,7 @@ body {
   }
   .banner-line-vertical {
     height: 70vh;
-    top: 15vh;
+    top: 17vh;
   }
 }
 
@@ -403,13 +403,15 @@ body {
   .servicios-container {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    margin: 0 5%;
   }
   .servicios-produccion, .servicios-mezcla {
     width: 70%;
+    margin: 3% 0;
   }
   .servicios-mezcla svg, .servicios-produccion svg {
-    left: 43%;
+    left: 45%;
   }
   .servicios-produccion h4, .servicios-mezcla h4 {
     font-size: 3vw;
@@ -552,6 +554,28 @@ body {
 
 .sobre-mi-button:hover {
   transform: scale(1.2);
+}
+
+@media all and (max-width: 600px) {
+  #sobremi {
+    display: block;
+  }
+  .sobre-mi-photo {
+    /*display: none;*/
+    margin-bottom: 20%;
+  }
+  .sobre-mi-text {
+    background: white;
+    position: relative;
+    height: 120%;
+    padding: 5% 5% 20% 5%;
+  }
+  .sobre-mi-text p {
+    font-size: 2vw;
+  }
+  .sobremi-line-horizontal {
+    display: none;
+  }
 }
 
 /* Trabajo */
@@ -1043,68 +1067,6 @@ label[for=cbox] a:hover {
   color: #D79404;
   font-weight: 400;
   font-size: 1.15vw;
-}
-
-
-@media only screen and (max-width: 600px) {
-  .navbar {
-    margin-top: 1.5vh;
-  }
-  .nav-link {
-    display: none;
-  }
-  #home {
-    min-height: 65vh;
-  }
-  .navbar-logo img{
-    width: 15vw;
-  }
-  .navbar-lang a {
-    margin-right: 2vw;
-  }
-  .navbar-lang svg {
-    width: 5vw;
-    height: 5vw;
-  }
-  .banner-title {
-    font-size: 6.5vw;
-  }
-
-  .banner-title h1 {
-    margin:  0;
-  }
-
-  .banner-info {
-    font-size: 2.5vw;
-  }
-
-  .banner-info h4 {
-    margin-top: 0;
-  }
-  .tooltip .tooltiptext {
-    width: 15vw;
-    top: 55%;
-    left: 80%;
-  }
-  .banner-image {
-    position: absolute;
-    top: 65%;
-    width: 50%;
-    left: 20%;
-  }
-  .banner-text {
-  font-size: 4.5vw;
-  }
-
-  .banner-button {
-    top: 55%;
-    left: 65%;
-    font-size: 3vw;
-  }
-  .banner-line-vertical {
-    height: 70vh;
-    top: 15vh;
-  }
 }
 
 
