@@ -50,7 +50,7 @@ title: Index
                 style="font-size: 3vw;"></span>
         </div>
         <div class="servicios-title">
-            <h2>Servicios</h2>
+            <h2>Cómo te puedo ayudar</h2>
         </div>
         <div class="servicios-container">
             <div class="servicios-produccion">
