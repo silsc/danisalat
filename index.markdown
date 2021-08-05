@@ -6,8 +6,8 @@ title: Index
   <script src="/assets/js/espcookie.js" async></script>
 </head>
 <body>
-    <div id="preloader"></div>
-    {% include navbar-esp.html src="/english"%}
+<!--     <div id="preloader"></div>
+ -->    {% include navbar-esp.html src="/english"%}
     <div class="banner-line-vertical"></div>
     <div id="home">
         <div class="banner-title">
@@ -20,9 +20,9 @@ title: Index
             <h4>PRODUCTOR DE ROCK Y METAL, <span>BARCELONA</span></h4>
         </div>
         <div class="banner-text">
-            <h2 class="effect-shine">IMPACTO</h2>
-            <h2 class="effect-shine">DEFINICIÓN</h2>
-            <h2 class="effect-shine">PROFUNDIDAD</h2>
+            <h2 class="effect-shine">El productor</h2>
+            <h2 class="effect-shine">que transformará</h2>
+            <h2 class="effect-shine">tu música</h2>
         </div>
         <a class="banner-button" href="#contacto">Contacta ya!</a>
         <div class="banner-line-horizontal-one">
@@ -32,7 +32,7 @@ title: Index
         <div class="banner-line-horizontal-three">
         </div>
         <div class="banner-image">
-          <img src="/assets/images/chan-shoulder.jpg" style="width: 125%;"/>
+          <img src="/assets/images/chan-shoulder.jpg" style="width: 100%;"/>
         </div>
         <div class="banner-arrow">
             <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
@@ -82,8 +82,10 @@ title: Index
             <!-- <h3>Tengo...</h3> -->
             <p>Llevo haciendo música y tocando en bandas desde que tengo recuerdo, y sé lo difícil que es que la gente te tome en serio como artista y se interese en tu música.
             Desde que empecé a producir hace pocos años, más allá del sonido, mi principal obsesión ha sido aprender cómo coño hacer para ayudar a las bandas a avanzar en sus carreras.
+            <br>
             <br>La música es mucho más que sonar bien. Hay que escribir buena música, tocarla bien, tener una visión, crear merch llamativo, videoclips interesantes, buscar bolos, promocionarse bien, etc.
             Es intimidante y mi objetivo es poder aportar a las bandas en cada paso para tener el mejor producto posible.
+            <br>
             <br>Cada día se suben a Spotify 60 mil canciones (no, no es un error), y es muy fácil ser un número más. Quiero trabajar con bandas con ganas de cambiar la industria, mejorar con cada CD, hablar de temas importantes y, sobre todo, hacer que el esfuerzo, la música y el arte valgan la pena.
             </p>
             <a class="sobre-mi-button" href="#contacto">Contacta ya!</a>
@@ -127,8 +129,8 @@ title: Index
         <div class="spotify">
           <h5>¿Quieres escuchar otros trabajos en los que he participado?</h5>
           <h5>¿Otros estilos de música?</h5>
-          <p><a href="#contacto">Contáctame</a> o escucha mi playlist en Spotify:</p>
-          <iframe src="https://open.spotify.com/embed/playlist/2nwVcowWfYhXXqkmVgGVNK" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <p><a href="#contacto">Contáctame</a> o escucha <a href="https://open.spotify.com/playlist/2nwVcowWfYhXXqkmVgGVNK?si=586a412f544a44e7
+">mi playlist en Spotify</a></p>
         </div>
     </div>
     <div id="opiniones">

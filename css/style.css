@@ -127,7 +127,7 @@ body {
 /* Home banner */
 #home {
   position: relative;
-  min-height: 50vw;
+  min-height: 37vw;
   -webkit-animation: fadein 2s;
 }
 
@@ -141,7 +141,7 @@ body {
   top: 0;
   left: 15%;
   color: #1D2638;
-  font-size: 4vw;
+  font-size: 3.5vw;
   padding: 0;
   /*transition: transform .5s;*/
 }
@@ -175,11 +175,12 @@ body {
 
 .banner-text {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 10%;
   color: #1D2638;
-  font-size: 3vw;
+  font-size: 2vw;
   margin: 1%;
+  width: 80vw;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -207,7 +208,7 @@ body {
 
 .banner-button {
   position: absolute;
-  top: 68%;
+  top: 85%;
   left: 30%;
   padding: 2% 8%;
   background-color: white;
@@ -236,13 +237,13 @@ body {
 
 .banner-image {
   position: absolute;
-  top: 40%;
+  bottom: 45%;
   left: 60%;
 }
 
 .banner-arrow {
   position: absolute;
-  bottom: 20%;
+  bottom: 0%;
   left: 10.5%;
   display: flex;
   flex-direction: column;
@@ -251,8 +252,8 @@ body {
 .banner-line-vertical {
   position: absolute;
   border-left: 1px solid black;
-  height: 120vh;
-  top: 40vh;
+  height: 45vw;
+  top: 17vw;
   left: 10%;
   z-index: 100;
 }
@@ -260,25 +261,25 @@ body {
 .banner-line-horizontal-one {
   position: absolute;
   border-top: 1px solid black;
-  width: 45vw;
+  width: 43vw;
   right: 0;
-  top: 70%;
+  bottom: 40%;
 }
 
 .banner-line-horizontal-two {
   position: absolute;
   border-top: 1px solid black;
-  width: 45vw;
+  width: 43vw;
   right: 0;
-  top: 80%;
+  bottom: 25%;
 }
 
 .banner-line-horizontal-three {
   position: absolute;
   border-top: 1px solid black;
-  width: 45vw;
+  width: 43vw;
   right: 0;
-  top: 90%;
+  bottom: 10%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -321,7 +322,7 @@ body {
 #servicios {
   background: white;
   position: relative;
-  padding-bottom: 10%;
+  padding-bottom: 3%;
 }
 
 .down-icon {
@@ -334,8 +335,8 @@ body {
 
 .servicios-title h2 {
   color: #D79404;
-  font-size: 4.5vw;
-  padding: 10% 0 0 15%;
+  font-size: 4vw;
+  padding: 3% 0 0 15%;
   margin-bottom: 7%;
 }
 
@@ -343,17 +344,17 @@ body {
   position: absolute;
   border-top: 1px solid black;
   width: 100vw;
-  top: 12%;
+  top: 18%;
 }
 
 .servicios-container {
   display: flex;
   justify-content: space-around;
-  margin: 0 15%;
+  margin: 0 10%;
 }
 
 .servicios-produccion {
-  width: 40%;
+  width: 45%;
 }
 
 .servicios-produccion h4 {
@@ -364,9 +365,9 @@ body {
 
 .servicios-produccion p {
   font-weight: 400;
-  font-size:  1.15vw;
+  font-size:  1.10vw;
   text-align: justify;
-  line-height: 3em;
+  line-height: 2.3em;
 }
 
 .servicios-produccion svg {
@@ -378,7 +379,7 @@ body {
 }
 
 .servicios-mezcla {
-  width: 40%;
+  width: 45%;
 }
 
 .servicios-mezcla h4 {
@@ -389,9 +390,9 @@ body {
 
 .servicios-mezcla p {
   font-weight: 400;
-  font-size:  1.15vw;
+  font-size:  1.10vw;
   text-align: justify;
-  line-height: 3em;
+  line-height: 2.3em;
 }
 
 .servicios-mezcla svg {
@@ -445,13 +446,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 0.5fr 0.5fr;
-  gap: 8% 4%;
+  gap: 9% 5%;
   grid-template-areas:
     "one one"
     "two three"
     "four five";
   grid-area: 1 / 1 / 2 / 2 / 3 / 3;
-  padding: 10% 5%;
+  padding: 0% 5%;
 }
 
 .one {
@@ -472,7 +473,7 @@ body {
   align-self: center;
  }
 
- .two img {
+.two img {
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -517,28 +518,27 @@ body {
 .sobre-mi-text {
   background: white;
   position: relative;
-  height: 120%;
+  height: 100%;
+  padding: 0% 10% 5% 10%;
 }
 
 .sobre-mi-text h2 {
   text-align: right;
-  margin: 7% 10% 5% 0;
-  font-size: 4vw;
-  color:#31405D;
+  font-size: 3.5vw;
+  color: #31405D;
 }
 
 .sobre-mi-text h3 {
-  margin: 5% 12%;
   font-size: 2vw;
   color: #D79404;
 }
 
 .sobre-mi-text p {
-  margin: 0 12%;
-  font-size: 1.15vw;
+  /*margin: 0 12%;*/
+  font-size: 1.10vw;
   font-weight: 400;
   text-align: justify;
-  line-height: 3em;
+  line-height: 2.5em;
 }
 
 .sobre-mi-button {
