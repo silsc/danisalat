@@ -12,6 +12,15 @@ body {
    min-height: 100vh;
 }
 
+#preloader {
+    background: white url(../assets/images/preloader.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 101;
+    transition: 1s ease;
+  }
+
 /* Navbar */
 .navbar {
   display: flex;

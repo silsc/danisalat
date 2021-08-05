@@ -6,6 +6,7 @@ title: Index
   <script src="/assets/js/espcookie.js" async></script>
 </head>
 <body>
+    <div id="preloader"></div>
     {% include navbar-esp.html src="/english"%}
     <div class="banner-line-vertical"></div>
     <div id="home">
