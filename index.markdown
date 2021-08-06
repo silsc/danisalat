@@ -41,6 +41,13 @@ title: Index
                 style="font-size: 3vw;"></span>
         </div>
     </div>
+    <div id="intro">
+      <div class="intro-container">
+        <p>¿Quieres simplemente sonar bien o quieres hacer la música que te va a ayudar a avanzar en tu carrera?</p>
+        <p> Hay muchos estudios que pueden conseguir un buen sonido; yo ayudo a bandas de rock y metal a definir una visión para sus proyectos, creando algo único.</p>
+        <p>No puedo garantizar el éxito, pero sí que vamos a producir la mejor música que podemos hacer. Spoiler: va a sonar que flipas.</p>
+      </div>
+    </div>
     <div id="servicios">
         <div class="servicios-line-horizontal"></div>
         <div class="down-icon">

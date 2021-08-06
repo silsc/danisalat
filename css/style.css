@@ -151,10 +151,6 @@ body {
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-/*.banner-title:hover {
-  transform: scale(1.05);
-}*/
-
 .banner-image {
   position: absolute;
   bottom: 5%;
@@ -318,6 +314,24 @@ body {
   }
 }
 
+/* Intro */
+#intro {
+  background: #31405D;
+  min-height: 30vw;
+  margin-bottom: 0;
+}
+
+#intro p {
+  color: white;
+
+}
+/*.intro-container::before {
+  content: '"';
+  font-size: 3em;
+}
+.intro-container::after {
+  content: '"';
+}*/
 /* Servicios */
 #servicios {
   background: white;
@@ -335,7 +349,7 @@ body {
 
 .servicios-title h2 {
   color: #D79404;
-  font-size: 4vw;
+  font-size: 3vw;
   padding: 3% 0 0 15%;
   margin-bottom: 7%;
 }
@@ -658,13 +672,6 @@ audio {
 .spotify p a {
   text-decoration: none;
   color: #d79404 ;
-}
-
-iframe{
-  margin: 5% 30%;
-  width: 20vw;
-  height: 30vw;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 @media screen and (max-width: 600px) {
