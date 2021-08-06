@@ -127,7 +127,7 @@ body {
 /* Home banner */
 #home {
   position: relative;
-  min-height: 37vw;
+  min-height: 38vw;
   -webkit-animation: fadein 2s;
 }
 
@@ -318,20 +318,66 @@ body {
 #intro {
   background: #31405D;
   min-height: 30vw;
-  margin-bottom: 0;
+  padding-bottom: 3%;
 }
 
-#intro p {
+.intro-container h2 {
+  text-align: center;
   color: white;
+  margin: 3% 10%;
+  padding-top: 3%;
+  font-size: 3vw;
+  font-weight: 900;
+}
+.intro-line1, .intro-line2 {
+  display: flex;
+}
 
+.intro-line1 span, .intro-line2 span {
+  color: #d79404;
+  font-weight: 700;
 }
-/*.intro-container::before {
-  content: '"';
-  font-size: 3em;
+
+.intro-line1 p, .intro-line2 p {
+  background-color: white;
+  padding: 3%;
+  font-size: 1.3vw;
+  color: #31405D;
+  line-height: 187%;
+  font-weight: 400;
 }
-.intro-container::after {
-  content: '"';
-}*/
+
+.intro-line1 p {
+  margin: 0 0 0 10%;
+}
+
+.intro-line2 p {
+  margin: 0 10% 0 0;
+}
+
+.intro-line1 img {
+  margin-right: 10%;
+  height: 10%;
+  width: 33%;
+}
+
+.intro-line2 img {
+  margin-left: 10%;
+  width: 30%;
+}
+
+.spoiler {
+  position: relative;
+}
+.spoiler p {
+  position: absolute;
+  top: -1vw;
+  left: 25vw;
+  font-size: 2vw;
+  font-weight: 400;
+  color: #d79404;
+}
+
 /* Servicios */
 #servicios {
   background: white;
@@ -351,6 +397,7 @@ body {
   color: #D79404;
   font-size: 3vw;
   padding: 3% 0 0 15%;
+  margin-top:  0;
   margin-bottom: 7%;
 }
 

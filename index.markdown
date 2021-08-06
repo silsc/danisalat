@@ -43,9 +43,19 @@ title: Index
     </div>
     <div id="intro">
       <div class="intro-container">
-        <p>¿Quieres simplemente sonar bien o quieres hacer la música que te va a ayudar a avanzar en tu carrera?</p>
-        <p> Hay muchos estudios que pueden conseguir un buen sonido; yo ayudo a bandas de rock y metal a definir una visión para sus proyectos, creando algo único.</p>
-        <p>No puedo garantizar el éxito, pero sí que vamos a producir la mejor música que podemos hacer. Spoiler: va a sonar que flipas.</p>
+        <h2>¿Quieres simplemente sonar bien o quieres hacer la música que te va a ayudar a avanzar en tu carrera?</h2>
+        <div class="intro-line1">
+          <p>Hay muchos estudios que pueden conseguir un buen sonido; yo ayudo a bandas de rock y metal a <span>definir una visión</span> para sus proyectos, creando algo <span>único</span>.</p>
+          <img src="/assets/images/introline1.png" />
+        </div>
+        <div class="intro-line2">
+          <img src="/assets/images/introline1.png" />
+          <p>No puedo garantizar el éxito, pero sí que vamos a producir <span>la mejor música</span> que podemos hacer.</p>
+        </div>
+        <div class="spoiler">
+          <p>Spoiler:</p>
+          <h2>"va a sonar que flipas"</h2>
+        </div>
       </div>
     </div>
     <div id="servicios">
@@ -86,7 +96,6 @@ title: Index
         </div>
         <div class="sobre-mi-text">
             <h2>Sobre mi</h2>
-            <!-- <h3>Tengo...</h3> -->
             <p>Llevo haciendo música y tocando en bandas desde que tengo recuerdo, y sé lo difícil que es que la gente te tome en serio como artista y se interese en tu música.
             Desde que empecé a producir hace pocos años, más allá del sonido, mi principal obsesión ha sido aprender cómo coño hacer para ayudar a las bandas a avanzar en sus carreras.
             <br>
