@@ -790,17 +790,19 @@ audio {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    height: 100%;
   }
 
 .card {
   background: white;
   padding: 1%;
   width: 40vw;
-  margin: 5% 20%;
 }
 
 .middle-card {
-  position: relative;
+  position: absolute;
+  top: -7%;
 }
 
 .song-container {
