@@ -697,7 +697,6 @@ body {
   display: flex;
   justify-content: space-around;
   position: relative;
-
 }
 
 .card {
@@ -731,6 +730,10 @@ body {
   font-size: 1vw;
   color: #1D2638;;
   font-weight: 400;
+}
+
+.song-name {
+  font-weight: 700;
 }
 
 audio {

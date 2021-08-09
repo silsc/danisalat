@@ -6,8 +6,8 @@ title: Index
   <script src="/assets/js/espcookie.js" async></script>
 </head>
 <body>
-<!--     <div id="preloader"></div>
- -->    {% include navbar-esp.html src="/english"%}
+    <div id="preloader"></div>
+    {% include navbar-esp.html src="/english"%}
     <div class="banner-line-vertical"></div>
     <div id="home">
         <div class="banner-title">
@@ -109,7 +109,7 @@ title: Index
               <div class="song-container">
                 <img src="/assets/images/LaRealidad.png" alt="">
                 <div class="song-info">
-                  <p>La Realidad - The Fox 196</p>
+                  <p class="song-name">La Realidad - The Fox 196</p>
                   <p>Producción / Mezcla / Master</p>
                 </div>
               </div>
@@ -119,7 +119,7 @@ title: Index
               <div class="song-container">
                 <img src="../assets/images/Contrapensament.png" alt="">
                 <div class="song-info">
-                  <p>Contrapensament - Fornax</p>
+                  <p class="song-name">Contrapensament - Fornax</p>
                   <p>Producción / Mezcla / Master</p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ title: Index
               <div class="song-container">
                 <img src="/assets/images/Follow.png" alt="">
                 <div class="song-info">
-                  <p>Follow - Melting</p>
+                  <p class="song-name">Follow - Melting</p>
                   <p>Producción / Mezcla / Master</p>
                 </div>
               </div>
