@@ -682,7 +682,7 @@ body {
 
 /* Trabajo */
 #trabajo {
-  margin: 15% 0% 10% 0;
+  margin: 10% 0% 10% 0;
   color: #D79404;
 }
 
@@ -737,7 +737,7 @@ audio {
 
 .spotify {
   background: #31415D;
-  margin: 10% 20%;
+  margin: 5% 20%;
   padding: 3% 5%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
