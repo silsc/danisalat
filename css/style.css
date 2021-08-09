@@ -826,6 +826,20 @@ audio {
   audio {
     width: 40vw;
   }
+
+  .spotify {
+    margin: 5% 10%;
+    padding: 3% 5%;
+  }
+
+  .spotify h5 {
+    font-size: 3vw;
+  }
+
+  .spotify p {
+    font-size: 2.5vw;
+  }
+
 }
 
 /* Opiniones */
