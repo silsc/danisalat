@@ -19,9 +19,9 @@
             <h4>ROCK & METAL PRODUCER, <span>BARCELONA</span></h4>
         </div>
         <div class="banner-text">
-            <h2 class="effect-shine">IMPACT</h2>
-            <h2 class="effect-shine">DEFINITION</h2>
-            <h2 class="effect-shine">DEPTH</h2>
+            <h2 class="effect-shine">The producer</h2>
+            <h2 class="effect-shine">that will transform</h2>
+            <h2 class="effect-shine">your music</h2>
         </div>
         <a class="banner-button" href="#contacto">Let's talk</a>
         <div class="banner-line-horizontal-one">
@@ -34,22 +34,33 @@
           <img src="/assets/images/chan-shoulder.jpg" style="width: 125%;"/>
         </div>
         <div class="banner-arrow">
-            <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 3vw;"></span>
-            <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 3vw;"></span>
+          <img src="/assets/images/arrow.png"/>
         </div>
+    </div>
+    <div id="intro" class="section">
+      <div class="intro-container">
+        <h2>¿Quieres simplemente sonar bien o quieres hacer la música que te va a ayudar a avanzar en tu carrera?</h2>
+        <div class="intro-line1">
+          <p>Hay muchos estudios que pueden conseguir un buen sonido; yo ayudo a bandas de rock y metal a <span>definir una visión</span> para sus proyectos, creando algo <span>único</span>.</p>
+          <img src="/assets/images/introline1.png" />
+        </div>
+        <div class="intro-line2">
+          <img src="/assets/images/introline1.png" />
+          <p>No puedo garantizar el éxito, pero sí que vamos a producir <span>la mejor música</span> que podemos hacer.</p>
+        </div>
+        <div class="spoiler">
+          <p>Spoiler:</p>
+          <h2>"it's going to sound amazing"</h2>
+        </div>
+      </div>
     </div>
     <div id="servicios">
         <div class="servicios-line-horizontal"></div>
         <div class="down-icon">
-            <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 3vw;"></span>
-            <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 3vw;"></span>
+          <img src="/assets/images/arrow.png"/>
         </div>
         <div class="servicios-title">
-            <h2>Services</h2>
+            <h2>How I can help you</h2>
         </div>
         <div class="servicios-container">
             <div class="servicios-produccion">
@@ -77,7 +88,6 @@
         </div>
         <div class="sobre-mi-text">
             <h2>About me</h2>
-            <h3>I have...</h3>
             <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
                 double click me to add your own content and make changes to the font. Feel free to drag and drop me
                 anywhere you like on your page. I’m a great place for you to tell a story and let your users know a
@@ -123,43 +133,56 @@
     </div>
     <div id="opiniones">
       <h2>Reviews</h2>
-      <div class="carousel-container">
-      <input type="radio" name="position" checked />
-      <input type="radio" name="position" />
-      <input type="radio" name="position" />
-      <input type="radio" name="position" />
-      <input type="radio" name="position" />
-      <main id="carousel">
-        <div class="item">
-          <div class="item-info">
-            <h4>Name</h4>
-            <h5>other info</h5>
-          </div>
-          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+      <div id="flex-container" class="testimonials">
+        <div id="left-zone">
+          <ul class="list">
+            <li class="item">
+              <input type="radio" id="radio_testimonial-1" name="basic_carousel" checked="checked" />
+              <label class="label label_testimonial-1" for="radio_testimonial-1">Dez</label>
+              <div class="content-test content_testimonial-1">
+                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
+                <div class="review-text">
+                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
+              <label class="label label_testimonial-2" for="radio_testimonial-2">Review 2</label>
+              <div class="content-test content_testimonial-2">
+                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
+                <div class="review-text">
+                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
+              <label class="label label_testimonial-3" for="radio_testimonial-3">Review 3</label>
+              <div class="content-test content_testimonial-3">
+                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
+                <div class="review-text">
+                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
+              <label class="label label_testimonial-4" for="radio_testimonial-4">Review 4</label>
+              <div class="content-test content_testimonial-4">
+                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
+                <div class="review-text">
+                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="item">
-          <div class="item-info">
-            <h4>Name</h4>
-            <h5>other info</h5>
-          </div>
-          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
-        </div>
-        <div class="item">
-          <div class="item-info">
-          <h4>Name</h4>
-          <h5>other info</h5>
-          </div>
-          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
-        </div>
-        <div class="item">
-          <div class="item-info">
-            <h4>Name</h4>
-            <h5>other info</h5>
-          </div>
-          <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
-        </div>
-        <div class="item"></div>
-        </main>
+        <div id="right-zone"></div>
       </div>
     </div>
     <div id="contacto">
