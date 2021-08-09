@@ -80,7 +80,7 @@ body {
     display: none;
   }
   .navbar-logo img{
-    width: 15vw;
+    width: 10vw;
   }
   .navbar-lang a {
     margin-right: 2vw;
@@ -378,6 +378,36 @@ body {
   color: #d79404;
 }
 
+@media only screen and (max-width: 600px) {
+  .intro-container h2 {
+    font-size: 3.5vw;
+    padding: 5% 0 3% 0;
+  }
+  .spoiler p {
+    font-size: 3vw;
+  }
+  .intro-line1, .intro-line2 {
+    display: block;
+  }
+  .intro-line1 p, .intro-line2 p {
+    padding: 5%;
+    font-size: 2.3vw;
+    line-height: 187%;
+  }
+  .intro-line1 p, .intro-line2 p {
+    margin: 0 10%;
+  }
+  .intro-line1 img {
+    margin: 0 10%;
+    height: auto;
+    width: 80%;
+  }
+
+  .intro-line2 img {
+    display: none;
+  }
+}
+
 /* Servicios */
 #servicios {
   background: white;
@@ -458,7 +488,7 @@ body {
 
 .servicios-mezcla svg {
   position: relative;
-  left: 37%;
+  left: 40%;
   width: 7vw;
   height: 7vw;
   fill: #d79404;
@@ -469,7 +499,7 @@ body {
     font-size: 7vw;
   }
   .servicios-line-horizontal {
-    top: 5%;
+    top: 11%;
   }
   .servicios-container {
     display: flex;
@@ -735,16 +765,20 @@ audio {
     font-size: 7vw;
   }
   .cards-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 .card {
   background: white;
   padding: 1%;
   width: 40vw;
   margin: 5% 20%;
+}
+
+.middle-card {
+  position: relative;
 }
 
 .song-container {
@@ -768,9 +802,9 @@ audio {
   font-weight: 400;
 }
 
-audio {
-  width: 40vw;
-}
+  audio {
+    width: 40vw;
+  }
 }
 
 /* Opiniones */
