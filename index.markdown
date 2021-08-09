@@ -35,10 +35,7 @@ title: Index
           <img src="/assets/images/chan-shoulder.jpg" style="width: 100%;"/>
         </div>
         <div class="banner-arrow">
-            <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 3vw;"></span>
-            <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 3vw;"></span>
+          <img src="/assets/images/arrow.png"/>
         </div>
     </div>
     <div id="intro">
@@ -61,10 +58,7 @@ title: Index
     <div id="servicios">
         <div class="servicios-line-horizontal"></div>
         <div class="down-icon">
-            <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 3vw;"></span>
-            <span class="iconify" data-inline="false" data-icon="eva:arrow-ios-downward-outline"
-                style="font-size: 3vw;"></span>
+          <img src="/assets/images/arrow.png"/>
         </div>
         <div class="servicios-title">
             <h2>Cómo te puedo ayudar</h2>
