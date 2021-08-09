@@ -456,11 +456,17 @@ body {
   text-align: center;
 }
 
-.servicios-produccion p {
+.servicios-produccion p, .servicios-mezcla p {
   font-weight: 400;
-  font-size:  1.10vw;
+  font-size: 1.20vw;
   text-align: justify;
-  line-height: 2.3em;
+  color: #31405D;
+  line-height: 187%;
+}
+
+.servicios-produccion p span, .servicios-mezcla p span {
+  color: #d79404;
+  font-weight: 700;
 }
 
 .servicios-produccion svg {
@@ -479,13 +485,6 @@ body {
   color: #31405D;
   font-size: 2vw;
   text-align: center;
-}
-
-.servicios-mezcla p {
-  font-weight: 400;
-  font-size:  1.10vw;
-  text-align: justify;
-  line-height: 2.3em;
 }
 
 .servicios-mezcla svg {
@@ -628,10 +627,11 @@ body {
 
 .sobre-mi-text p {
   /*margin: 0 12%;*/
-  font-size: 1.10vw;
+  font-size: 1.20vw;
   font-weight: 400;
   text-align: justify;
-  line-height: 2.5em;
+  color: #31405D;
+  line-height: 187%;
 }
 
 .sobre-mi-button {
