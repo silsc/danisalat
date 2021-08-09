@@ -264,7 +264,7 @@ body {
 .banner-line-vertical {
   position: absolute;
   border-left: 1px solid black;
-  height: 45vw;
+  height: 31.5vw;
   top: 17vw;
   left: 10%;
   z-index: 100;

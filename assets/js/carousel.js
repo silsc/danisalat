@@ -1,14 +1,12 @@
-var testimonialItems = document.querySelectorAll(".item label");
-var timer;
+let testimonialItems = document.querySelectorAll(".item label");
+let timer;
 function cycleTestimonials(index) {
    timer = setTimeout(function() {
-    var evt;
+    let evt;
     if (document.createEvent){
-      //If browser = IE, then polyfill
       evt = document.createEvent('MouseEvent');
       evt.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
     } else {
-      //If Browser = modern, then create new MouseEvent
       evt = new MouseEvent("click", {
             view: window,
             bubbles: true,
@@ -16,24 +14,11 @@ function cycleTestimonials(index) {
             clientX: 20
           });
     }
-    var ele = "." + testimonialItems[index].className;
-    var ele2 = document.querySelector(ele)
-    ele2.dispatchEvent(evt);
-    index++; // Increment the index
-    if (index >= testimonialItems.length) {
-      index = 0; // Set it back to `0` when it reaches `3`
-    }
-    cycleTestimonials(index); // recursively call `cycleTestimonials()`
-    document.querySelector(".testimonials").addEventListener("click", function() {
-      clearTimeout(timer); //stop the carousel when someone clicks on the div
-    });
-  }, 2000); //adjust scroll speed in miliseconds
-}
-//run the function
-cycleTestimonials(0);
+  })
+};
 
 
-// music player stop
+// Music player stop
 document.addEventListener('play', function(e){
     var audios = document.getElementsByTagName('audio');
     for(var i = 0, len = audios.length; i < len;i++){
@@ -42,3 +27,21 @@ document.addEventListener('play', function(e){
         }
     }
 }, true);
+
+
+// Sections on scroll fade in
+// let elementsArray = document.querySelectorAll(".section");
+// console.log(elementsArray);
+// window.addEventListener('scroll', fadeIn );
+// function fadeIn() {
+//     for (var i = 0; i < elementsArray.length; i++) {
+//         var elem = elementsArray[i]
+//         var distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
+//         if (distInView < 0) {
+//             elem.classList.add("inView");
+//         } else {
+//             elem.classList.remove("inView");
+//         }
+//     }
+// }
+// fadeIn();

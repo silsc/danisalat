@@ -38,7 +38,7 @@ title: Index
           <img src="/assets/images/arrow.png"/>
         </div>
     </div>
-    <div id="intro">
+    <div id="intro" class="section">
       <div class="intro-container">
         <h2>¿Quieres simplemente sonar bien o quieres hacer la música que te va a ayudar a avanzar en tu carrera?</h2>
         <div class="intro-line1">
@@ -55,7 +55,7 @@ title: Index
         </div>
       </div>
     </div>
-    <div id="servicios">
+    <div id="servicios" class="section">
         <div class="servicios-line-horizontal"></div>
         <div class="down-icon">
           <img src="/assets/images/arrow.png"/>
@@ -80,7 +80,7 @@ title: Index
             </div>
         </div>
     </div>
-    <div id="sobremi">
+    <div id="sobremi" class="section">
         <div class="sobre-mi-photo">
             <div class="one"><img src="/assets/images/chan-seria.jpg" alt=""></div>
             <div class="two"><img src="/assets/images/chan-rack.jpg" alt=""></div>
@@ -102,7 +102,7 @@ title: Index
         </div>
         <div class="sobremi-line-horizontal"></div>
     </div>
-    <div id="trabajo">
+    <div id="trabajo" class="section">
         <h2>Trabajos</h2>
         <div class="cards-container">
           <div class="card">
