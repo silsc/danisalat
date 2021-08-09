@@ -240,7 +240,7 @@ body {
 .banner-arrow {
   position: absolute;
   width: 5%;
-  bottom: 0%;
+  bottom: -4%;
   left: 10.5%;
   display: flex;
   flex-direction: column;
