@@ -174,7 +174,7 @@ body {
   top: 35%;
   left: 10%;
   color: #1D2638;
-  font-size: 2vw;
+  font-size: 2.4vw;
   margin: 1%;
   width: 80vw;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -245,6 +245,21 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.banner-arrow, .down-icon {
+  animation: updown 1s infinite alternate;
+  -webkit-animation: updown 1s infinite  alternate;
+}
+
+@-webkit-keyframes updown {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-0.5vw); }
+}
+@keyframes updown {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-0.5vw); }
+}
+
 
 .banner-line-vertical {
   position: absolute;
@@ -815,7 +830,6 @@ audio {
 /* Opiniones */
 
 #opiniones {
-  margin-top: 5%;
   color: #D79404;
 }
 
@@ -847,8 +861,8 @@ audio {
 }
 
 #right-zone {
-  height: 60%;
-  width: 85%;
+  height: 70%;
+  width: 80%;
 }
 
 #left-zone {
@@ -891,7 +905,7 @@ audio {
 .content-test {
   position: absolute;
   right: 20%;
-  top: 25%;
+  top: 20%;
   opacity: 0;
   display: flex;
   align-items: center;
@@ -901,10 +915,6 @@ audio {
 
 .content-test p {
   width: 40vw;
-}
-
-.content-test img {
-
 }
 
 input:checked ~ .content-test {
@@ -980,7 +990,6 @@ p.testimonialState {
     font-size: 2.2vw;
   }
   #flex-container {
-    /*height: 15vw;*/
     padding: 0 3% 3% 3%;
   }
   .content-test {
@@ -999,14 +1008,14 @@ p.testimonialState {
 #contacto {
   background: white;
   position: relative;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 #contacto h2 {
   text-align: center;
   color: #D79404;
   font-size: 4vw;
-  padding-top: 5%;
+  padding-top: 3%;
   margin-bottom: 0;
 }
 
