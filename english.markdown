@@ -99,7 +99,7 @@
     <div id="trabajo">
         <h2>Work</h2>
         <div class="cards-container">
-          <div class="card">
+          <div class="card" style="margin-right: 15%;">
             <div class="song-container">
               <img src="/assets/images/LaRealidad.png" alt="">
               <div class="song-info">
@@ -109,7 +109,7 @@
             </div>
             {% include embed-audio.html src="/assets/audio/LaRealidad-TheFox.wav" %}
           </div>
-          <div class="card">
+          <div class="card middle-card">
             <div class="song-container">
               <img src="../assets/images/Contrapensament.png" alt="">
               <div class="song-info">
@@ -119,7 +119,7 @@
             </div>
             {% include embed-audio.html src="/assets/audio/Contrapensament-Fornax.wav" %}
           </div>
-          <div class="card">
+          <div class="card" style="margin-left: 15%;">
             <div class="song-container">
               <img src="/assets/images/Follow.png" alt="">
               <div class="song-info">
