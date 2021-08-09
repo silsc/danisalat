@@ -121,7 +121,7 @@ title: Index
               </div>
               {% include embed-audio.html src="/assets/audio/LaRealidad-TheFox.wav" %}
           </div>
-          <div class="card">
+          <div class="card middle-card">
               <div class="song-container">
                 <img src="../assets/images/Contrapensament.png" alt="">
                 <div class="song-info">
