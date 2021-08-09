@@ -35,7 +35,7 @@ title: Index
           <img src="/assets/images/chan-shoulder.jpg" style="width: 100%;"/>
         </div>
         <div class="banner-arrow">
-          <img src="/assets/images/arrow.png"/>
+          <img src="/assets/images/arrow.png" style="width: 5vw;"/>
         </div>
     </div>
     <div id="intro" class="section">
@@ -58,7 +58,7 @@ title: Index
     <div id="servicios" class="section">
         <div class="servicios-line-horizontal"></div>
         <div class="down-icon">
-          <img src="/assets/images/arrow.png"/>
+          <img src="/assets/images/arrow.png" style="width: 5vw;"/>
         </div>
         <div class="servicios-title">
             <h2>Cómo te puedo ayudar</h2>

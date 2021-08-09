@@ -239,11 +239,8 @@ body {
 
 .banner-arrow {
   position: absolute;
-  width: 5%;
   bottom: -4%;
   left: 10.5%;
-  display: flex;
-  flex-direction: column;
 }
 
 .banner-arrow, .down-icon {
@@ -436,9 +433,6 @@ body {
   position: absolute;
   bottom: 10%;
   right: 5%;
-  width: 5%;
-  display: flex;
-  flex-direction: column;
 }
 
 .servicios-title h2 {
