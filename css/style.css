@@ -636,11 +636,6 @@ body {
   color: #31405D;
 }
 
-.sobre-mi-text h3 {
-  font-size: 2vw;
-  color: #D79404;
-}
-
 .sobre-mi-text p {
   /*margin: 0 12%;*/
   font-size: 1.20vw;
@@ -661,6 +656,7 @@ body {
   font-size: 2vw;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transition: transform .5s;
+  -webkit-transition: transform .5s;
   z-index: 100;
 }
 
@@ -680,21 +676,26 @@ body {
     display: block;
   }
   .sobre-mi-photo {
-    /*display: none;*/
-    margin-bottom: 20%;
+    margin-bottom: 30%;
   }
   .sobre-mi-text {
-    background: white;
-    position: relative;
-    height: 120%;
-    padding: 5% 5% 20% 5%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5% 10% 15% 10%;
+  }
+  .sobremi-line-horizontal {
+    display: none;
+  }
+  .sobre-mi-text h2 {
+    font-size: 5vw;
   }
   .sobre-mi-text p {
     font-size: 2vw;
   }
-  .sobremi-line-horizontal {
-    display: none;
+  .sobre-mi-button {
+    position: absolute;
+    bottom: 5%;
+    right: 15%;
+    font-size: 3.5vw;
+
   }
 }
 
