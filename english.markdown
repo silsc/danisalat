@@ -34,7 +34,7 @@
           <img src="/assets/images/chan-shoulder.jpg" style="width: 125%;"/>
         </div>
         <div class="banner-arrow">
-          <img src="/assets/images/arrow.png"/>
+          <img src="/assets/images/arrow.png" style="width: 5vw;"/>
         </div>
     </div>
     <div id="intro" class="section">
@@ -57,7 +57,7 @@
     <div id="servicios">
         <div class="servicios-line-horizontal"></div>
         <div class="down-icon">
-          <img src="/assets/images/arrow.png"/>
+          <img src="/assets/images/arrow.png" style="width: 5vw;"/>
         </div>
         <div class="servicios-title">
             <h2>How I can help you</h2>
@@ -129,6 +129,11 @@
             </div>
             {% include embed-audio.html src="/assets/audio/Follow-Melting.wav" %}
           </div>
+        </div>
+        <div class="spotify">
+          <h5>Do you want to listen other proyects I was part of?</h5>
+          <h5>Other music styles?</h5>
+          <p><a href="#contacto">Contact me</a> or listen <a href="https://open.spotify.com/playlist/2nwVcowWfYhXXqkmVgGVNK?si=586a412f544a44e7" target="_blank">my playlist on Spotify</a></p>
         </div>
     </div>
     <div id="opiniones">

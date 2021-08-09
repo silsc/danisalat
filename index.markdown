@@ -139,7 +139,7 @@ title: Index
         <div class="spotify">
           <h5>¿Quieres escuchar otros trabajos en los que he participado?</h5>
           <h5>¿Otros estilos de música?</h5>
-          <p><a href="#contacto">Contáctame</a> o escucha <a href="https://open.spotify.com/playlist/2nwVcowWfYhXXqkmVgGVNK?si=586a412f544a44e7">mi playlist en Spotify</a></p>
+          <p><a href="#contacto">Contáctame</a> o escucha <a href="https://open.spotify.com/playlist/2nwVcowWfYhXXqkmVgGVNK?si=586a412f544a44e7" target="_blank">mi playlist en Spotify</a></p>
         </div>
     </div>
     <div id="opiniones">
