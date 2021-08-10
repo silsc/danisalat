@@ -293,7 +293,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   #home {
-    min-height: 65vh;
+    min-height: 80vh;
   }
   .banner-title {
     font-size: 6.5vw;
@@ -719,9 +719,17 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.left-card {
+  margin-right: 15%;
+}
+
 .middle-card {
   position: absolute;
   top: -7%;
+}
+
+.right-card {
+  margin-left: 15%;
 }
 
 .song-container {
@@ -789,16 +797,17 @@ audio {
     position: relative;
     height: 100%;
   }
-
-.card {
-  background: white;
-  padding: 1%;
-  width: 40vw;
+  .card {
+    margin-bottom: 5%;
+  }
+.left-card {
+  margin-right: 0;
 }
-
 .middle-card {
-  position: absolute;
-  top: -7%;
+  position: relative;
+}
+.right-card {
+  margin-left: 0;
 }
 
 .song-container {
@@ -818,7 +827,7 @@ audio {
   bottom: 0;
   text-align: center;
   font-size: 1vw;
-  color: #1D2638;;
+  color: #1D2638;
   font-weight: 400;
 }
 

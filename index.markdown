@@ -105,7 +105,7 @@ title: Index
     <div id="trabajo" class="section">
         <h2>Trabajos</h2>
         <div class="cards-container">
-          <div class="card" style="margin-right: 15%;">
+          <div class="card left-card">
               <div class="song-container">
                 <img src="/assets/images/LaRealidad.png" alt="">
                 <div class="song-info">
@@ -125,7 +125,7 @@ title: Index
               </div>
               {% include embed-audio.html src="/assets/audio/Contrapensament-Fornax.wav" %}
           </div>
-          <div class="card" style="margin-left: 15%;">
+          <div class="card right-card">
               <div class="song-container">
                 <img src="/assets/images/Follow.png" alt="">
                 <div class="song-info">
