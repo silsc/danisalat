@@ -1249,6 +1249,7 @@ label[for=cbox] a:hover {
 
   input[type="submit"] {
     font-size: 2.5vw;
+    margin-left: 43vw;
   }
 
   textarea {
