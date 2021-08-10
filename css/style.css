@@ -1296,4 +1296,15 @@ label[for=cbox] a:hover {
   font-size: 1.15vw;
 }
 
+@media all and (max-width: 600px) {
+  #footer {
+    height: 5vw;
+  }
+  .footer-copyright {
+    color: #D79404;
+    font-weight: 400;
+    font-size: 2.5vw;
+  }
+}
+
 
