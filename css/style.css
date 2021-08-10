@@ -120,7 +120,7 @@ body {
   .tooltip .tooltiptext {
     visibility: visible;
     width: 15vw;
-    top: 0%;
+    top: 0;
     left: -80%;
   }
 }
@@ -509,6 +509,7 @@ body {
 @media only screen and (max-width: 600px) {
   .servicios-title h2 {
     font-size: 7vw;
+    padding-left: 7%;
   }
   .servicios-line-horizontal {
     top: 11%;
@@ -527,10 +528,10 @@ body {
     left: 45%;
   }
   .servicios-produccion h4, .servicios-mezcla h4 {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .servicios-produccion p, .servicios-mezcla p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 }
 
@@ -681,10 +682,10 @@ body {
     display: none;
   }
   .sobre-mi-text h2 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
   .sobre-mi-text p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .sobre-mi-button {
     position: absolute;
