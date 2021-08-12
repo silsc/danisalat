@@ -20,6 +20,19 @@ body {
     z-index: 101;
   }
 
+.section {
+    -webkit-transition-delay: 3s;
+    -o-transition-delay: 3s;
+    transition-delay: 3s;
+    -webkit-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+    opacity: 0.2;
+  }
+  .inView {
+    opacity: 1;
+  }
+
 /* Navbar */
 .navbar {
   display: flex;

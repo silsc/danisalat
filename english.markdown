@@ -54,7 +54,7 @@
         </div>
       </div>
     </div>
-    <div id="servicios">
+    <div id="servicios" class="section">
         <div class="servicios-line-horizontal"></div>
         <div class="down-icon">
           <img src="/assets/images/arrow.png" style="width: 5vw;"/>
@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-    <div id="sobremi">
+    <div id="sobremi" class="section">
         <div class="sobre-mi-photo">
             <div class="one"><img src="/assets/images/chan-seria.jpg" alt=""></div>
             <div class="two"><img src="/assets/images/chan-rack.jpg" alt=""></div>
@@ -96,7 +96,7 @@
         </div>
         <div class="sobremi-line-horizontal"></div>
     </div>
-    <div id="trabajo">
+    <div id="trabajo" class="section">
         <h2>Work</h2>
         <div class="cards-container">
           <div class="card left-card">
@@ -136,7 +136,7 @@
           <p><a href="#contacto">Contact me</a> or listen <a href="https://open.spotify.com/playlist/2nwVcowWfYhXXqkmVgGVNK?si=586a412f544a44e7" target="_blank">my playlist on Spotify</a></p>
         </div>
     </div>
-    <div id="opiniones">
+    <div id="opiniones" class="section">
       <h2>Reviews</h2>
       <div id="flex-container" class="testimonials">
         <div id="left-zone">
@@ -190,7 +190,7 @@
         <div id="right-zone"></div>
       </div>
     </div>
-    <div id="contacto">
+    <div id="contacto" class="section">
       <h2>Contact</h2>
       <div class="sub-contacto">
         <p>Want to work together? Tell me more about your project</p>
