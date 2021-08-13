@@ -132,9 +132,9 @@ body {
 @media only screen and (max-width: 600px) {
   .tooltip .tooltiptext {
     visibility: visible;
-    width: 15vw;
+    width: 5em;
     top: 0;
-    left: -80%;
+    left: -2em;
   }
 }
 
@@ -287,6 +287,7 @@ body {
   width: 43vw;
   right: 0;
   bottom: 40%;
+  z-index: -2;
 }
 
 .banner-line-horizontal-two {
@@ -295,6 +296,7 @@ body {
   width: 43vw;
   right: 0;
   bottom: 25%;
+  z-index: -2;
 }
 
 .banner-line-horizontal-three {
@@ -303,6 +305,7 @@ body {
   width: 43vw;
   right: 0;
   bottom: 10%;
+  z-index: -2;
 }
 
 @media only screen and (max-width: 600px) {
@@ -310,31 +313,42 @@ body {
     min-height: 80vh;
   }
   .banner-title {
-    font-size: 6.5vw;
+    top: 5vh;
+    font-size: 8vw;
   }
   .banner-title h1 {
     margin: 0;
   }
   .banner-info {
-    font-size: 2.5vw;
+    position: relative;
+    width: 80%;
+    font-size: 12px;
+    top: 18vh;
+    left: 12%;
+    text-align: left;
   }
   .banner-info h4 {
     margin-top: 0;
   }
   .banner-image {
-    position: absolute;
-    top: 65%;
-    width: 50%;
-    left: 20%;
+    position: relative;
+    top: 45vh;
+    width: 75vw;
+    left: 25vw;
+    z-index: -1;
   }
+
   .banner-text {
-    font-size: 4.5vw;
+    font-size: 5vw;
     top: 30%;
+    right: 0;
+    text-align: right;
   }
   .banner-button {
-    top: 55%;
-    left: 65%;
-    font-size: 3vw;
+    position: relative;
+    top: 40vh;
+    left: 12%;
+    font-size: 1.2em;
     padding: 3% 5%;
   }
   .banner-line-vertical {
