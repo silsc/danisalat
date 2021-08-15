@@ -20,7 +20,7 @@ body {
     z-index: 101;
   }
 
-.section {
+/*.section {
     -webkit-transition-delay: 3s;
     -o-transition-delay: 3s;
     transition-delay: 3s;
@@ -31,7 +31,7 @@ body {
   }
   .inView {
     opacity: 1;
-  }
+  }*/
 
 /* Navbar */
 .navbar {
