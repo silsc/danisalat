@@ -31,7 +31,7 @@
         <div class="banner-line-horizontal-three">
         </div>
         <div class="banner-image">
-          <img src="/assets/images/chan-shoulder.jpg" style="width: 125%;"/>
+          <img src="/assets/images/chan-shoulder.jpg" style="width: 100%;"/>
         </div>
         <div class="banner-arrow">
           <img src="/assets/images/arrow.png" style="width: 5vw;"/>
