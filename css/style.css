@@ -793,7 +793,7 @@ audio {
 }
 
 .spotify {
-  background: #31415D;
+  background: white;
   margin: 5% 20%;
   padding: 3% 5%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -802,19 +802,25 @@ audio {
 .spotify h5 {
   text-align: center;
   font-size: 1.5vw;
-  color:  white;
+  color:  #31415D;
   font-weight: 400;
 }
 .spotify p {
   text-align: center;
-  font-size: 1.2vw;
-  color: white;
-  font-weight: 700;
+  font-size: 1.7vw;
+  color: #31415D;
+  font-weight: 400;
 }
 
 .spotify p a {
   text-decoration: none;
-  color: #d79404 ;
+  color: #d79404;
+  font-weight: 700;
+}
+
+.spotify p a:hover {
+  text-decoration: none;
+  color: #141A25 ;
 }
 
 @media screen and (max-width: 600px) {
