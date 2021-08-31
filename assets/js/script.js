@@ -81,7 +81,7 @@ const gestureEnd = (e) => {
   moving = false;
 };
 
-if (window.navigator.pointerEnabled) {
+if (window.PointerEvent) {
   window.addEventListener("pointerdown", gestureStart);
   window.addEventListener("pointermove", gestureMove);
   window.addEventListener("pointerup", gestureEnd);
