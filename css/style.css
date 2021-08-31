@@ -255,6 +255,7 @@ body {
   position: absolute;
   bottom: -4%;
   left: 10.5%;
+  width: 5vw;
 }
 
 .banner-arrow, .down-icon {
@@ -310,7 +311,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   #home {
-    min-height: 80vh;
+    min-height: 90vh;
   }
   .banner-title {
     top: 5vh;
@@ -354,6 +355,9 @@ body {
   .banner-line-vertical {
     height: 70vh;
     top: 17vh;
+  }
+  .banner-arrow {
+    bottom: 0;
   }
 }
 

@@ -36,7 +36,7 @@ title: Index
           <img src="/assets/images/chan-shoulder.jpg" style="width: 100%;"/>
         </div>
         <div class="banner-arrow">
-          <img src="/assets/images/arrow.png" style="width: 5vw;"/>
+          <img src="/assets/images/arrow.png" style="width: 50px;"/>
         </div>
     </div>
     <div id="intro" class="section">
