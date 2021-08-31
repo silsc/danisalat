@@ -2,6 +2,7 @@
 layout: default
 title: Index
 ---
+
 <head>
   <script src="/assets/js/espcookie.js" async></script>
 </head>
@@ -195,6 +196,22 @@ title: Index
         </div>
         <div id="right-zone"></div>
       </div>
+    </div>
+    <div class="carousel-phone-container">
+        <div class="carousel-phone">
+          <div class="track">
+            <div class ="review-card">
+              <img src="/assets/images/dez.jpeg" style="width: 100%;"/>
+              <div class ="content-phone-review">
+                <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+              </div>
+            </div>
+            <div class ="review-card"></div>
+            <div class ="review-card"></div>
+            <div class ="review-card"></div>
+          </div>
+        </div>
     </div>
     <div id="contacto" class="section">
       <h2>Contacto</h2>

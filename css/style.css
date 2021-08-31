@@ -802,7 +802,7 @@ audio {
 .spotify h5 {
   text-align: center;
   font-size: 1.5vw;
-  color:  #31415D;
+  color: #31415D;
   font-weight: 400;
 }
 .spotify p {
@@ -1039,26 +1039,62 @@ p.testimonialState {
   line-height: 2.2vw;
 }
 
+.carousel-phone-container {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
-  .label {
-    font-size: 2vw;
-  }
-  .label:hover {
-    font-size: 2.2vw;
-  }
   #flex-container {
-    padding: 0 3% 3% 3%;
+    display: none;
   }
-  .content-test {
-    position: absolute;
-    right: 15%;
-    bottom: 20%;
+  .carousel-phone-container {
+    display: block;
   }
-  #right-zone {
-    height: 60%;
+  .carousel-phone {
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .track {
+    display: inline-flex;
+    touch-action: none;
   }
 
+  .review-card {
+    background: #FFFFFF;
+    width: 300px;
+    height: 80vh;
+    margin: 25px 0px 30px 30px;
+    box-sizing: border-box;
+  }
+
+  .review-card img {
+    height: 150px;
+    object-fit: cover;
+  }
+  .content-phone-review {
+    padding: 10%;
+  }
+  .review-card p {
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 0;
+  }
+  p.reviewname .reviewBand{
+    text-align: right;
+    color: #33475c;
+    font-weight: 400;
+    font-size: 2vw;
+  }
+  p.reviewname {
+    text-align: right;
+    margin-top: 2%;
+    font-weight: bold;
+    color: #d79404;
+  }
 }
+
 
 /* Contacto */
 
