@@ -2,6 +2,7 @@
   layout: default
   title: English
 ---
+
 <head>
   <script src="/assets/js/engcookie.js" async></script>
 </head>
@@ -16,14 +17,14 @@
             <p>FROM 2015</p>
         </div>
         <div class="banner-info">
-            <h4>ROCK & METAL PRODUCER, <span>BARCELONA</span></h4>
+            <h4>ROCK & METAL PRODUCER IN <span>BARCELONA (SPAIN)</span></h4>
         </div>
         <div class="banner-text">
             <h2 class="effect-shine">The producer</h2>
             <h2 class="effect-shine">that will transform</h2>
-            <h2 class="effect-shine">your music</h2>
+            <h2 class="effect-shine">your sound</h2>
         </div>
-        <a class="banner-button" href="#contacto">Let's talk</a>
+        <a class="banner-button" href="#contacto">Contact Me!</a>
         <div class="banner-line-horizontal-one">
         </div>
         <div class="banner-line-horizontal-two">
@@ -39,18 +40,18 @@
     </div>
     <div id="intro" class="section">
       <div class="intro-container">
-        <h2>¿Quieres simplemente sonar bien o quieres hacer la música que te va a ayudar a avanzar en tu carrera?</h2>
+        <h2>Do you just want to sound great or do you want to make the music that will help your career move forward?</h2>
         <div class="intro-line1">
-          <p>Hay muchos estudios que pueden conseguir un buen sonido; yo ayudo a bandas de rock y metal a <span>definir una visión</span> para sus proyectos, creando algo <span>único</span>.</p>
+          <p>There are plenty of studios that can achieve a great sound. I help rock and metal bands <span>define a vision</span> for their projects, creating something <span>unique.</span>.</p>
           <img src="/assets/images/introline1.png" />
         </div>
         <div class="intro-line2">
           <img src="/assets/images/introline1.png" />
-          <p>No puedo garantizar el éxito, pero sí que vamos a producir <span>la mejor música</span> que podemos hacer.</p>
+          <p>I can’t guarantee success, but I can guarantee we’ll produce <span>the best music</span> we can.</p>
         </div>
         <div class="spoiler">
           <p>Spoiler:</p>
-          <h2>"it's going to sound amazing"</h2>
+          <h2>"It’ll sound amazing"</h2>
         </div>
       </div>
     </div>
@@ -60,21 +61,22 @@
           <img src="/assets/images/arrow.png" style="width: 5vw;"/>
         </div>
         <div class="servicios-title">
-            <h2>How I can help you</h2>
+            <h2>How can I help you?</h2>
         </div>
         <div class="servicios-container">
             <div class="servicios-produccion">
               <svg version="1.1" id="production" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 121.61" style="enable-background:new 0 0 122.88 121.61" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M73.12,0H88.6v5.17c38.74,8.87,43.17,27.47,20.7,56.79c2.39-29.09-0.54-35.33-20.7-36.68v73.54 c0.04,0.39,0.05,0.78,0.05,1.18c0,9.56-10.03,19.04-22.4,21.18c-12.37,2.14-22.4-3.88-22.4-13.44c0-13.04,17.91-24.36,29.26-20.37 L73.12,0L73.12,0z M5.69,73.78C2.55,73.78,0,71.23,0,68.09c0-3.14,2.55-5.69,5.69-5.69h47.63c3.14,0,5.69,2.55,5.69,5.69 c0,3.14-2.55,5.69-5.69,5.69H5.69L5.69,73.78z M5.69,46.14C2.55,46.14,0,43.59,0,40.44c0-3.14,2.55-5.69,5.69-5.69h47.63 c3.14,0,5.69,2.55,5.69,5.69c0,3.14-2.55,5.69-5.69,5.69H5.69L5.69,46.14z M5.69,18.5C2.55,18.5,0,15.95,0,12.8 c0-3.14,2.55-5.69,5.69-5.69h47.63c3.14,0,5.69,2.55,5.69,5.69c0,3.14-2.55,5.69-5.69,5.69H5.69L5.69,18.5z"/></g></svg>
               <h4>Production</h4>
-              <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                    double click me to add your own content and make changes to</p>
+              <p>When making music it’s difficult to share your feelings and stay objective at the same time. My work is to define a <span>unique vision </span> for every band and make the hard decisions, both musical and sonically, for the project to be <span>successful</span>.
+              <br>It’s easy to be ignored on Spotify. <span>If you believe in your music, it deserves to be listened to</span>.
+              </p>
             </div>
             <div class="servicios-mezcla">
               <svg version="1.1" id="mix" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="115.618px" height="122.88px" viewBox="0 0 115.618 122.88" enable-background="new 0 0 115.618 122.88" xml:space="preserve"><g><path fill-rule="evenodd" clip-rule="evenodd" d="M16.151,0L16.151,0c5.292,0,9.621,4.33,9.621,9.622v21.595 c-2.864-1.43-6.095-2.236-9.514-2.236c-3.504,0-6.811,0.845-9.728,2.342V9.622C6.53,4.33,10.859,0,16.151,0L16.151,0z M99.36,34.06 c8.979,0,16.258,7.278,16.258,16.257c0,8.979-7.279,16.258-16.258,16.258s-16.257-7.278-16.257-16.258 C83.104,41.338,90.382,34.06,99.36,34.06L99.36,34.06z M99.254,0L99.254,0c5.292,0,9.621,4.33,9.621,9.622v21.595 c-2.864-1.43-6.095-2.236-9.515-2.236c-3.504,0-6.811,0.845-9.728,2.342V9.622C89.633,4.33,93.962,0,99.254,0L99.254,0z M108.875,69.417v43.842c0,5.291-4.329,9.621-9.621,9.621l0,0c-5.292,0-9.621-4.33-9.621-9.621V69.312 c2.917,1.496,6.224,2.341,9.728,2.341C102.78,71.652,106.011,70.847,108.875,69.417L108.875,69.417z M57.617,93.896 c8.979,0,16.257-7.278,16.257-16.257c0-8.979-7.278-16.258-16.257-16.258c-8.979,0-16.257,7.278-16.257,16.258 C41.36,86.617,48.638,93.896,57.617,93.896L57.617,93.896z M57.51,122.88L57.51,122.88c5.292,0,9.622-4.331,9.622-9.621V96.689 c-2.864,1.43-6.053,2.236-9.515,2.236s-6.811-0.846-9.728-2.343v16.676C47.89,118.55,52.219,122.88,57.51,122.88L57.51,122.88z M67.132,58.489V9.622C67.132,4.331,62.802,0,57.51,0l0,0c-5.292,0-9.621,4.33-9.621,9.622v48.974 c2.917-1.497,6.266-2.343,9.728-2.343S64.268,57.06,67.132,58.489L67.132,58.489z M16.257,34.06 c8.979,0,16.257,7.278,16.257,16.257c0,8.979-7.278,16.258-16.257,16.258C7.279,66.574,0,59.296,0,50.316 C0,41.338,7.279,34.06,16.257,34.06L16.257,34.06z M25.771,69.417v43.842c0,5.291-4.329,9.621-9.621,9.621l0,0 c-5.292,0-9.621-4.33-9.621-9.621V69.312c2.917,1.496,6.224,2.341,9.728,2.341C19.677,71.652,22.907,70.847,25.771,69.417 L25.771,69.417z"/></g></svg>
-              <h4>Mix</h4>
-              <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                    double
-                    click me to add your own content and make changes to</p>
+              <h4>Mixing</h4>
+              <p>DIY productions risk sounding like a demo. I believe musicians need to know how to produce themselves and <span>have a vision</span>, but it’s difficult to get good results, and you need someone that knows how to give the sound the necessary <span>impact and energy</span>.
+              <br>If you haven’t started the project yet, I can advice during the whole process to make <span>the right calls</span>. 
+              </p>
             </div>
         </div>
     </div>
@@ -88,11 +90,12 @@
         </div>
         <div class="sobre-mi-text">
             <h2>About me</h2>
-            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                double click me to add your own content and make changes to the font. Feel free to drag and drop me
-                anywhere you like on your page. I’m a great place for you to tell a story and let your users know a
-                little more about you.</p>
-            <a class="sobre-mi-button" href="#contacto">Let's talk</a>
+            <p>I’ve been writing music and playing in bands for as long as I can remember, and I know just how difficult it is for people to take you seriously as an artist and be interested in your music. Since I started producing a few years ago, besides sound, my main obsession has been to learn how the fuck I can help the bands move their careers forward.
+            <br>
+            <br>Music is way more than sounding great. You have to write good music, play it right, have a vision, design cool merch, interesting videoclips, finding shows, promote yourself well, etc. It’s intimidating, and my goal is to help the bands in evey step of the way to create the best possible product.
+            <br>
+            <br>Every day over 60k songs get uploaded to Spotify (that’s not a typo!) and it’s really easy to be ignored. I want to work with bands who want to change the industry, improve with every album, talk real and important matters and, above all, make the effort, music and art worth it.</p>
+            <a class="sobre-mi-button" href="#contacto">Contact now!</a>
         </div>
         <div class="sobremi-line-horizontal"></div>
     </div>
@@ -131,13 +134,13 @@
           </div>
         </div>
         <div class="spotify">
-          <h5>Do you want to listen other proyects I was part of?</h5>
-          <h5>Other music styles?</h5>
-          <p><a href="#contacto">Contact me</a> or listen <a href="https://open.spotify.com/playlist/2nwVcowWfYhXXqkmVgGVNK?si=586a412f544a44e7" target="_blank">my playlist on Spotify</a></p>
+          <h5>Do you want to listen to some more of my projects?</h5>
+          <h5>Other music styles maybe?</h5>
+          <p><a href="#contacto">Contact me</a><br> or listen <a href="https://open.spotify.com/playlist/2nwVcowWfYhXXqkmVgGVNK?si=586a412f544a44e7" target="_blank">my playlist on Spotify</a></p>
         </div>
     </div>
     <div id="opiniones" class="section">
-      <h2>Reviews</h2>
+      <h2>Opiniones</h2>
       <div id="flex-container" class="testimonials">
         <div id="left-zone">
           <ul class="list">
@@ -154,12 +157,12 @@
             </li>
             <li class="item">
               <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
-              <label class="label label_testimonial-2" for="radio_testimonial-2">Review 2</label>
+              <label class="label label_testimonial-2" for="radio_testimonial-2">Chander</label>
               <div class="content-test content_testimonial-2">
-                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
+                <img src="/assets/images/chander.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
-                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+                  <p>He trabajado con Dani en varios ocasiones y aún a día de hoy no deja de sorprenderme lo mucho que he aprendido durante todo el proceso de grabación. No puedes trabajar con él y salir del estudio siendo el mismo músico. Sabe entender y aprovechar al máximo cada detalle de la producción, tanto en lo técnico como en lo emocional.</p>
+                  <p class="reviewname">Chander <span class="reviewBand">(Fuzz Forward)</span></p>
                 </div>
               </div>
             </li>
@@ -174,7 +177,7 @@
                 </div>
               </div>
             </li>
-            <li class="item">
+            <!-- <li class="item">
               <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
               <label class="label label_testimonial-4" for="radio_testimonial-4">Review 4</label>
               <div class="content-test content_testimonial-4">
@@ -184,21 +187,43 @@
                   <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
                 </div>
               </div>
-            </li>
+            </li> -->
           </ul>
         </div>
         <div id="right-zone"></div>
       </div>
     </div>
+    <div class="carousel-phone-container">
+        <div class="carousel-phone">
+          <div class="track">
+            <div class ="review-card">
+              <img src="/assets/images/dez.jpeg" style="width: 100%;"/>
+              <div class ="content-phone-review">
+                <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+              </div>
+            </div>
+            <div class ="review-card">
+            <img src="/assets/images/chander.jpeg" style="width: 100%;"/>
+              <div class ="content-phone-review">
+                <p>He trabajado con Dani en varios ocasiones y aún a día de hoy no deja de sorprenderme lo mucho que he aprendido durante todo el proceso de grabación. No puedes trabajar con él y salir del estudio siendo el mismo músico. Sabe entender y aprovechar al máximo cada detalle de la producción, tanto en lo técnico como en lo emocional.</p>
+                <p class="reviewname">Chander<span class="reviewBand">(Fuzz Forward)</span></p>
+              </div>
+            </div>
+            <div class ="review-card"></div>
+            <!-- <div class ="review-card"></div> -->
+          </div>
+        </div>
+    </div>
     <div id="contacto" class="section">
       <h2>Contact</h2>
       <div class="sub-contacto">
-        <p>Want to work together? Tell me more about your project</p>
+        <p>Do you want to work with me? Let me know more about your project!</p>
       </div>
       <div class="wrapper">
         <div class="contact-info">
           <h3>Contact information</h3>
-          <p>Fill up the form and I'll get back to you within 24 hours.</p>
+          <p>Shoot me a message and I’ll get in contact with you to know you, your project and your goals, and explain what I can add to your music</p>
           <div class="contact-email">
             <svg id="email" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 88.86"><title>email</title><path d="M7.05,0H115.83a7.07,7.07,0,0,1,7,7.05V81.81a7,7,0,0,1-1.22,4,2.78,2.78,0,0,1-.66,1,2.62,2.62,0,0,1-.66.46,7,7,0,0,1-4.51,1.65H7.05a7.07,7.07,0,0,1-7-7V7.05A7.07,7.07,0,0,1,7.05,0Zm-.3,78.84L43.53,40.62,6.75,9.54v69.3ZM49.07,45.39,9.77,83.45h103L75.22,45.39l-11,9.21h0a2.7,2.7,0,0,1-3.45,0L49.07,45.39Zm31.6-4.84,35.46,38.6V9.2L80.67,40.55ZM10.21,5.41,62.39,47.7,112.27,5.41Z"/></svg>
             <p>email: danisalat@gmail.com</p>

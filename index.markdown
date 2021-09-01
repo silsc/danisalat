@@ -161,12 +161,12 @@ title: Index
             </li>
             <li class="item">
               <input type="radio" id="radio_testimonial-2" name="basic_carousel" />
-              <label class="label label_testimonial-2" for="radio_testimonial-2">Review 2</label>
+              <label class="label label_testimonial-2" for="radio_testimonial-2">Chander</label>
               <div class="content-test content_testimonial-2">
-                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
+                <img src="/assets/images/chander.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
-                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+                  <p>He trabajado con Dani en varios ocasiones y aún a día de hoy no deja de sorprenderme lo mucho que he aprendido durante todo el proceso de grabación. No puedes trabajar con él y salir del estudio siendo el mismo músico. Sabe entender y aprovechar al máximo cada detalle de la producción, tanto en lo técnico como en lo emocional.</p>
+                  <p class="reviewname">Chander <span class="reviewBand">(Fuzz Forward)</span></p>
                 </div>
               </div>
             </li>
@@ -181,7 +181,7 @@ title: Index
                 </div>
               </div>
             </li>
-            <li class="item">
+            <!-- <li class="item">
               <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
               <label class="label label_testimonial-4" for="radio_testimonial-4">Review 4</label>
               <div class="content-test content_testimonial-4">
@@ -191,7 +191,7 @@ title: Index
                   <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
                 </div>
               </div>
-            </li>
+            </li> -->
           </ul>
         </div>
         <div id="right-zone"></div>
@@ -207,9 +207,15 @@ title: Index
                 <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
               </div>
             </div>
+            <div class ="review-card">
+            <img src="/assets/images/chander.jpeg" style="width: 100%;"/>
+              <div class ="content-phone-review">
+                <p>He trabajado con Dani en varios ocasiones y aún a día de hoy no deja de sorprenderme lo mucho que he aprendido durante todo el proceso de grabación. No puedes trabajar con él y salir del estudio siendo el mismo músico. Sabe entender y aprovechar al máximo cada detalle de la producción, tanto en lo técnico como en lo emocional.</p>
+                <p class="reviewname">Chander<span class="reviewBand">(Fuzz Forward)</span></p>
+              </div>
+            </div>
             <div class ="review-card"></div>
-            <div class ="review-card"></div>
-            <div class ="review-card"></div>
+            <!-- <div class ="review-card"></div> -->
           </div>
         </div>
     </div>
