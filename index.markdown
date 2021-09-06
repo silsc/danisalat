@@ -172,12 +172,12 @@ title: Index
             </li>
             <li class="item">
               <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
-              <label class="label label_testimonial-3" for="radio_testimonial-3">Review 3</label>
+              <label class="label label_testimonial-3" for="radio_testimonial-3">Edu</label>
               <div class="content-test content_testimonial-3">
-                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
+                <img src="/assets/images/edu.jpg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
-                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+                  <p>Grabar con Dani es una muy buena experiencia, como si hubiera una conexión musical de toda la vida, mucho profesionalismo y pasión por lo que hace, todas  las ideas que uno imagina las trae al mundo real y hace que tu producción tenga una consistencia muy sólida.</p>
+                  <p class="reviewname">Edu<span class="reviewBand">(Paulet)</span></p>
                 </div>
               </div>
             </li>
@@ -214,7 +214,13 @@ title: Index
                 <p class="reviewname">Chander<span class="reviewBand">(Fuzz Forward)</span></p>
               </div>
             </div>
-            <div class ="review-card"></div>
+            <div class ="review-card">
+            <img src="/assets/images/edu.jpg" style="width: 100%;"/>
+              <div class ="content-phone-review">
+                <p>Grabar con Dani es una muy buena experiencia, como si hubiera una conexión musical de toda la vida, mucho profesionalismo y pasión por lo que hace, todas  las ideas que uno imagina las trae al mundo real y hace que tu producción tenga una consistencia muy sólida.</p>
+                <p class="reviewname">Edu<span class="reviewBand">(Paulet)</span></p>
+              </div>
+            </div>
             <!-- <div class ="review-card"></div> -->
           </div>
         </div>
