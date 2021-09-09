@@ -24,7 +24,7 @@
             <h2 class="effect-shine">that will transform</h2>
             <h2 class="effect-shine">your sound</h2>
         </div>
-        <a class="banner-button" href="#contacto">Contact Me!</a>
+        <a class="banner-button" href="#contacto">Request a quote!</a>
         <div class="banner-line-horizontal-one">
         </div>
         <div class="banner-line-horizontal-two">
@@ -95,7 +95,7 @@
             <br>Music is way more than sounding great. You have to write good music, play it right, have a vision, design cool merch, interesting videoclips, finding shows, promote yourself well, etc. It’s intimidating, and my goal is to help the bands in evey step of the way to create the best possible product.
             <br>
             <br>Every day over 60k songs get uploaded to Spotify (that’s not a typo!) and it’s really easy to be ignored. I want to work with bands who want to change the industry, improve with every album, talk real and important matters and, above all, make the effort, music and art worth it.</p>
-            <a class="sobre-mi-button" href="#contacto">Contact now!</a>
+            <a class="sobre-mi-button" href="#contacto">Request a quote!</a>
         </div>
         <div class="sobremi-line-horizontal"></div>
     </div>
@@ -140,7 +140,7 @@
         </div>
     </div>
     <div id="opiniones" class="section">
-      <h2>Opiniones</h2>
+      <h2>Reviews</h2>
       <div id="flex-container" class="testimonials">
         <div id="left-zone">
           <ul class="list">
@@ -150,7 +150,7 @@
               <div class="content-test content_testimonial-1">
                 <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                  <p>Recording with Dani is a pure pleasure. One of his best virtues is his great technical training with international producers, which lets you know different techniques and more optimized methods you don’t find in other local studios. Another thing to point out is that you won’t leave the studio without learning something. We (The Fox 196) are proud of his work and sharing the passion he has for music.</p>
                   <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
                 </div>
               </div>
@@ -161,33 +161,33 @@
               <div class="content-test content_testimonial-2">
                 <img src="/assets/images/chander.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <p>He trabajado con Dani en varios ocasiones y aún a día de hoy no deja de sorprenderme lo mucho que he aprendido durante todo el proceso de grabación. No puedes trabajar con él y salir del estudio siendo el mismo músico. Sabe entender y aprovechar al máximo cada detalle de la producción, tanto en lo técnico como en lo emocional.</p>
+                  <p>I’ve worked with Dani a couple of times and still today it amazes me how much I learn throughout all of the recording process. You can’t work with him and come out of the studio being the same musician. He knows how to get and exploit every detail of your productions, both technically and emotionally.</p>
                   <p class="reviewname">Chander <span class="reviewBand">(Fuzz Forward)</span></p>
                 </div>
               </div>
             </li>
             <li class="item">
               <input type="radio" id="radio_testimonial-3" name="basic_carousel" />
-              <label class="label label_testimonial-3" for="radio_testimonial-3">Review 3</label>
+              <label class="label label_testimonial-3" for="radio_testimonial-3">Edu</label>
               <div class="content-test content_testimonial-3">
-                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
+                <img src="/assets/images/edu.jpg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
-                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+                  <p>Recording with Dani is an amazing experience, as if there was a lifelong musical connection, a lot of professionalism and passion for his work. He realizes all of the ideas you have in your head and he makes your production have a solid consistency.</p>
+                  <p class="reviewname">Edu<span class="reviewBand">(Paulet)</span></p>
                 </div>
               </div>
             </li>
-            <!-- <li class="item">
+            <li class="item">
               <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
-              <label class="label label_testimonial-4" for="radio_testimonial-4">Review 4</label>
+              <label class="label label_testimonial-4" for="radio_testimonial-4">Marc</label>
               <div class="content-test content_testimonial-4">
-                <img src="/assets/images/dez.jpeg" style="width: 20%; border-radius: 50%"/>
+                <img src="/assets/images/marc.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
-                  <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
-                  <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
+                  <p>Tracking with Dani has meant a huge musical learning for me. He has shown me how to open your mind in regards to songwriting, I have improved my guitar playing with his tips and, most importantly, is how open and coherent he is when talking about your music. He’ll advise you in a way that will make the song better.</p>
+                  <p class="reviewname">Marc<span class="reviewBand">(Holy Dolls)</span></p>
                 </div>
               </div>
-            </li> -->
+            </li>
           </ul>
         </div>
         <div id="right-zone"></div>
@@ -199,19 +199,31 @@
             <div class ="review-card">
               <img src="/assets/images/dez.jpeg" style="width: 100%;"/>
               <div class ="content-phone-review">
-                <p>Grabar con Dani es un auténtico placer. De las mejores virtudes que tiene es su gran formación técnica con grandes productores internacionales, lo que te hace aprender unas técnicas y unas formas mucho más optimizadas que no encuentras en otros productores nacionales. Otro aspecto a remarcar es que con él jamás te irás del estudio sin haber aprendido algo. The Fox 196 estamos muy orgullosos de su trabajo y de compartir la pasión con la que vive la música.</p>
+                <p>Recording with Dani is a pure pleasure. One of his best virtues is his great technical training with international producers, which lets you know different techniques and more optimized methods you don’t find in other local studios. Another thing to point out is that you won’t leave the studio without learning something. We (The Fox 196) are proud of his work and sharing the passion he has for music. </p>
                 <p class="reviewname">Dez <span class="reviewBand">(The Fox 196)</span></p>
               </div>
             </div>
             <div class ="review-card">
             <img src="/assets/images/chander.jpeg" style="width: 100%;"/>
               <div class ="content-phone-review">
-                <p>He trabajado con Dani en varios ocasiones y aún a día de hoy no deja de sorprenderme lo mucho que he aprendido durante todo el proceso de grabación. No puedes trabajar con él y salir del estudio siendo el mismo músico. Sabe entender y aprovechar al máximo cada detalle de la producción, tanto en lo técnico como en lo emocional.</p>
+                <p>I’ve worked with Dani a couple of times and still today it amazes me how much I learn throughout all of the recording process. You can’t work with him and come out of the studio being the same musician. He knows how to get and exploit every detail of your productions, both technically and emotionally. </p>
                 <p class="reviewname">Chander<span class="reviewBand">(Fuzz Forward)</span></p>
               </div>
             </div>
-            <div class ="review-card"></div>
-            <!-- <div class ="review-card"></div> -->
+            <div class ="review-card">
+            <img src="/assets/images/edu.jpg" style="width: 100%;"/>
+              <div class ="content-phone-review">
+                <p>Recording with Dani is an amazing experience, as if there was a lifelong musical connection, a lot of professionalism and passion for his work. He realizes all of the ideas you have in your head and he makes your production have a solid consistency.</p>
+                <p class="reviewname">Edu<span class="reviewBand">(Paulet)</span></p>
+              </div>
+            </div>
+            <div class ="review-card">
+            <img src="/assets/images/marc.jpeg" style="width: 100%;"/>
+              <div class ="content-phone-review">
+                <p>Tracking with Dani has meant a huge musical learning for me. He has shown me how to open your mind in regards to songwriting, I have improved my guitar playing with his tips and, most importantly, is how open and coherent he is when talking about your music. He’ll advise you in a way that will make the song better.</p>
+                <p class="reviewname">Marc<span class="reviewBand">(Holy Dolls)</span></p>
+              </div>
+            </div>
           </div>
         </div>
     </div>
