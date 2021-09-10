@@ -173,7 +173,7 @@
                 <img src="/assets/images/edu.jpg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
                   <p>Recording with Dani is an amazing experience, as if there was a lifelong musical connection, a lot of professionalism and passion for his work. He realizes all of the ideas you have in your head and he makes your production have a solid consistency.</p>
-                  <p class="reviewname">Edu<span class="reviewBand">(Paulet)</span></p>
+                  <p class="reviewname">Edu <span class="reviewBand">(Paulet)</span></p>
                 </div>
               </div>
             </li>
@@ -184,7 +184,7 @@
                 <img src="/assets/images/marc.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
                   <p>Tracking with Dani has meant a huge musical learning for me. He has shown me how to open your mind in regards to songwriting, I have improved my guitar playing with his tips and, most importantly, is how open and coherent he is when talking about your music. He’ll advise you in a way that will make the song better.</p>
-                  <p class="reviewname">Marc<span class="reviewBand">(Holy Dolls)</span></p>
+                  <p class="reviewname">Marc <span class="reviewBand">(Holy Dolls)</span></p>
                 </div>
               </div>
             </li>
@@ -207,21 +207,21 @@
             <img src="/assets/images/chander.jpeg" style="width: 100%;"/>
               <div class ="content-phone-review">
                 <p>I’ve worked with Dani a couple of times and still today it amazes me how much I learn throughout all of the recording process. You can’t work with him and come out of the studio being the same musician. He knows how to get and exploit every detail of your productions, both technically and emotionally. </p>
-                <p class="reviewname">Chander<span class="reviewBand">(Fuzz Forward)</span></p>
+                <p class="reviewname">Chander <span class="reviewBand">(Fuzz Forward)</span></p>
               </div>
             </div>
             <div class ="review-card">
             <img src="/assets/images/edu.jpg" style="width: 100%;"/>
               <div class ="content-phone-review">
                 <p>Recording with Dani is an amazing experience, as if there was a lifelong musical connection, a lot of professionalism and passion for his work. He realizes all of the ideas you have in your head and he makes your production have a solid consistency.</p>
-                <p class="reviewname">Edu<span class="reviewBand">(Paulet)</span></p>
+                <p class="reviewname">Edu <span class="reviewBand">(Paulet)</span></p>
               </div>
             </div>
             <div class ="review-card">
             <img src="/assets/images/marc.jpeg" style="width: 100%;"/>
               <div class ="content-phone-review">
                 <p>Tracking with Dani has meant a huge musical learning for me. He has shown me how to open your mind in regards to songwriting, I have improved my guitar playing with his tips and, most importantly, is how open and coherent he is when talking about your music. He’ll advise you in a way that will make the song better.</p>
-                <p class="reviewname">Marc<span class="reviewBand">(Holy Dolls)</span></p>
+                <p class="reviewname">Marc <span class="reviewBand">(Holy Dolls)</span></p>
               </div>
             </div>
           </div>

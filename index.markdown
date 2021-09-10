@@ -177,18 +177,18 @@ title: Index
                 <img src="/assets/images/edu.jpg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
                   <p>Grabar con Dani es una muy buena experiencia, como si hubiera una conexión musical de toda la vida, mucho profesionalismo y pasión por lo que hace, todas  las ideas que uno imagina las trae al mundo real y hace que tu producción tenga una consistencia muy sólida.</p>
-                  <p class="reviewname">Edu<span class="reviewBand">(Paulet)</span></p>
+                  <p class="reviewname">Edu <span class="reviewBand">(Paulet)</span></p>
                 </div>
               </div>
             </li>
             <li class="item">
               <input type="radio" id="radio_testimonial-4" name="basic_carousel" />
-              <label class="label label_testimonial-4" for="radio_testimonial-4">Review 4</label>
+              <label class="label label_testimonial-4" for="radio_testimonial-4">Marc</label>
               <div class="content-test content_testimonial-4">
-                <img src="/assets/images/review4.jpeg" style="width: 20%; border-radius: 50%"/>
+                <img src="/assets/images/marc.jpeg" style="width: 20%; border-radius: 50%"/>
                 <div class="review-text">
                   <p>Grabar con Dani ha supuesto para mi un aprendizaje musical brutal. Aprender a abrir la mente en base a composicion musical, he mejorado mi tecnica de tocar la guitarra con sus consejos, pero lo mas importante, es lo abierto y coherente que es al hablar con el sobre tus temas! El te dara sus consejos pero al final con su ayuda el tema acaba sonando incluso mejor!</p>
-                  <p class="reviewname">Review 4<span class="reviewBand">(Band 4)</span></p>
+                  <p class="reviewname">Marc <span class="reviewBand">(Holy Dolls)</span></p>
                 </div>
               </div>
             </li>
@@ -211,21 +211,21 @@ title: Index
             <img src="/assets/images/chander.jpeg" style="width: 100%;"/>
               <div class ="content-phone-review">
                 <p>He trabajado con Dani en varios ocasiones y aún a día de hoy no deja de sorprenderme lo mucho que he aprendido durante todo el proceso de grabación. No puedes trabajar con él y salir del estudio siendo el mismo músico. Sabe entender y aprovechar al máximo cada detalle de la producción, tanto en lo técnico como en lo emocional.</p>
-                <p class="reviewname">Chander<span class="reviewBand">(Fuzz Forward)</span></p>
+                <p class="reviewname">Chander <span class="reviewBand">(Fuzz Forward)</span></p>
               </div>
             </div>
             <div class ="review-card">
             <img src="/assets/images/edu.jpg" style="width: 100%;"/>
               <div class ="content-phone-review">
                 <p>Grabar con Dani es una muy buena experiencia, como si hubiera una conexión musical de toda la vida, mucho profesionalismo y pasión por lo que hace, todas  las ideas que uno imagina las trae al mundo real y hace que tu producción tenga una consistencia muy sólida.</p>
-                <p class="reviewname">Edu<span class="reviewBand">(Paulet)</span></p>
+                <p class="reviewname">Edu <span class="reviewBand">(Paulet)</span></p>
               </div>
             </div>
             <div class ="review-card">
-            <img src="/assets/images/review4.jpeg" style="width: 100%;"/>
+            <img src="/assets/images/marc.jpeg" style="width: 100%;"/>
               <div class ="content-phone-review">
                 <p>Grabar con Dani ha supuesto para mi un aprendizaje musical brutal. Aprender a abrir la mente en base a composicion musical, he mejorado mi tecnica de tocar la guitarra con sus consejos, pero lo mas importante, es lo abierto y coherente que es al hablar con el sobre tus temas! El te dara sus consejos pero al final con su ayuda el tema acaba sonando incluso mejor!</p>
-                <p class="reviewname">Review 4<span class="reviewBand">(Band 4)</span></p>
+                <p class="reviewname">Marc <span class="reviewBand">(Holy Dolls)</span></p>
               </div>
             </div>
           </div>
